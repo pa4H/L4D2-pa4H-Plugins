@@ -1,4 +1,4 @@
-# ServerCMDS
+# [L4D2] ServerCMDS
 
 A simple plugin that allows admins to use following commands:
 
