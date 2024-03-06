@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"PREFIX"
+	{
+		"en"			"[PEZDOX]"	
+	}
+	"AFK"
+	{
+		"en"			"{olive}!js{default} - join to survivors. {olive}!ji{default} - join to infected"	
+		"ru"			"{olive}!js{default} - присоединиться к выжившим. {olive}!ji{default} - присоединиться к зараженным"
+	}
+}

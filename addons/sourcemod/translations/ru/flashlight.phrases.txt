@@ -1,0 +1,11 @@
+"Phrases"
+{
+	"Flashlight Intro"
+	{
+		"ru"		"Включите фонарик командой в чате: {green}!light{default}. Выберете цвет red, green, blue, purple, orange, yellow, white. Пр: {green}!light red{default}."
+	}
+	"Flashlight Usage"
+	{
+		"ru"		"Помощь: {green}!light{default} <R G B> Выберете цвет из 3 RGB значений 0-255: красный, зеленый, синий. Пр: {green}!light 255 0 0{default}."
+	}
+}

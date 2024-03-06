@@ -1,0 +1,104 @@
+"Phrases"
+{
+	"Announce skeet level1"
+	{
+		"en"	"{green}★ {olive}%N {default} skeeted hurt {olive}%N{default}. Done {olive}%d {default} damage."
+		"ru"	"{green}★ {olive}%N {default} опозорил {olive}(%N){default}. Нанёс урона: {olive}[%d]"
+		//Аж каску проебал
+	}
+	"Announce skeet level2"
+	{
+		"en"	"{green}★★ {olive}%N {default}skeeted {olive}%N{default} with one shot."
+		"ru"	"{green}★★ {olive}%N {default}опозорил {olive}(%N){default} одним выстрелом"
+		//Аж каску проебал
+	}
+	"Announce sniper skeet"
+	{
+		"en"	"{green}★★★ {default}Sniper {olive}%N {default}skeeted {olive}%N{default}."
+		"ru"	"{green}★★★ {default}Ноускопер {olive}%N {default}опозорил {olive}(%N)"
+		//Аж каску проебал
+	}
+	"Announce melee skeet"
+	{
+		"en"	"{green}★★★ {olive}%N {default}melee-skeeted {olive}%N{default}."
+		"ru"	"{green}★★★ {olive}%N {default}опозорил {olive}(%N){default} милишкой"
+		//На нахуй
+	}
+	"Announce melee skeet hurt"
+	{
+		"en"	"{green}★★★ {olive}%N {default}melee-skeeted hurt {olive}%N{default}."
+		"ru"	"{green}★★★ {olive}%N {default}опозорил {olive}(%N){default} милишкой"
+		//На нахуй
+	}
+	"Announce sniper skeet hurt"
+	{
+		"en" 	"{green}★★ {default}Sniper {olive}%N {default} skeeted hurt {olive}%N."
+		"ru" 	"{green}★★ {default}Ноускопер {olive}%N {default}опозорил {olive}(%N)"
+		//Аж каску проебал
+	}
+	"Announce deadstoped"
+	{
+		"en" 	"{green}★ {olive}%N {default} deadstoped {olive}%N."
+		"ru" 	"{green}★ {olive}%N {default}дал пощёчину {olive}(%N)"
+	}
+	"Announce failboom"
+	{
+		"en"	"{green}★ {olive}%N {default}killed {olive}%N's{default} boomer before any survivor was vomited."
+		"ru"	"{green}★ {olive}%N {default}убил тупого {olive}(%N) {default}до того, как он дал заблев"
+		//
+	}
+	"Announce charger level"
+	{
+		"en"	"{green}★★★ {olive}%N {default} leveled a {olive}%N's {default}charger."
+		"ru"	"{green}★★★ {olive}%N {default} срезал Громилу {olive}(%N)"
+		//На нахуй
+	}
+	"Announce charger level hurt"
+	{
+		"en"	"{green}★ {olive}%N {default} leveled a hurt {olive}%N's {default}charger."
+		"ru"	"{green}★ {olive}%N {default} срезал Громилу {olive}(%N)"
+		//На нахуй
+	}
+	"Announce smoker tongue cut"
+	{
+		"en"	"{green}★★ {olive}%N {default} break a {olive}%N's {default}smokers tongue."
+		"ru"	"{green}★★ {olive}%N {default} сделал обрезание Курильщику {olive}(%N)"
+		//А хуй тебе
+	}
+	"Announce smoker tongue break with kill"
+	{
+		"en"	"{green}★★ {olive}%N {default} kill {olive}%N's {default} smoker and cleared from tongue."
+		"ru"	"{green}★★ {olive}%N {default} убил Курильщика {olive}(%N) {default}и отрезал ему хуй"
+		//На нахуй
+	}
+	"Announce smoker tongue break with shove"
+	{
+		"en"	"{green}★★ {olive}%N {default}shoved a {olive}%N's {default}smoker while is capped."
+		"ru"	"{green}★★ {olive}%N {default}уебал в бороду Курильщику {olive}(%N)"
+	}
+	"Announce tank rock skeeted"
+	{
+		"en"	"{green}★★ {olive}%N {default}skeeted a {olive}%N's {default}tank rock."
+		"ru"	"{green}★★ {olive}%N {default}отстрелил камень Танка {olive}(%N)"
+	}
+	"Announce high hunter pounce"
+	{
+		"en"	"{green}★★ {olive}%N {default}done a {olive}%d {default}damage to {olive}%N {default}in a high pounce."
+		"ru"	"{green}★★ {olive}%N{default} уебался с высоты и нанёс {olive}%d {default}урона игроку {olive}(%N)"
+		//На нахуй
+	}
+	"Announce amazing boomer"
+	{
+		"en"	"{green}★★ {olive}%N's {default}boomer vomited all 4 survivors."
+		"ru"	"{green}★★ {olive}%N {default}утопил 4 выживших в блевотне"
+	}
+	"Announce car alarm"
+	{
+		"en" 	"{green}☠ {olive}%N {default}triggered an alarmed car."
+		"ru" 	"{green}☠ {olive}%N {default}задел Жигу стоящую на сигнализации"
+	}
+	"Announce headshot"
+	{
+		"en"	"{green}★ {olive}%N {default}headshoted {olive}%N{default}."
+	}
+}

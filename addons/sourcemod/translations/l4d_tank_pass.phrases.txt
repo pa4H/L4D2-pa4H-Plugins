@@ -1,0 +1,80 @@
+"Phrases"
+{
+	"phrase1"
+	{
+		"en"	"Type !passtank to give the Tank to another player."
+		"ru"	"Напишите !passtank, чтобы передать Танка."
+	}
+	"phrase2"
+	{
+		"en"	"The Tank can be given to another player before the Frustration meter runs out."
+		"ru"	"Танка можно передать только на первом контроле."
+		"hu"	"A Tank átadható frusztráció előtt."
+		"es"	"El Tanque se puede entregar a otro jugador antes de que se agote el medidor de frustración."
+	}
+	"phrase3"
+	{
+		"#format" "{1:N},{2:N}"
+		"en"	"{1} passed the Tank to {2}"
+		"ru"	"{1} передал Танка игроку {2}"
+	}
+	"phrase4"
+	{
+		"en"	"Who will take the Tank?"
+		"ru"	"Кому передать Танка?"
+	}
+	"phrase5"
+	{
+		"en"	"Do you want to play as the Tank?"
+		"ru"	"Вы хотите сыграть Танком?"
+	}
+	"phrase6"
+	{
+		"#format" "{1:N}"
+		"en"	"{1} didn't agree to be the Tank."
+		"ru"	"{1} не согласился быть Танком."
+	}
+	"phrase7"
+	{
+		"en"	"The Tank can't be passed right now."
+		"ru"	"Передача Танка сейчас недоступна."
+	}
+	"phrase8"
+	{
+		"en"	"The Tank can't be passed when it's on fire."
+		"ru"	"Танка можно передать если он не горит."
+	}
+	"phrase9"
+	{
+		"#format" "{1:N}"
+		"en"	"An admin has passed the Tank to {1}"
+		"ru"	"Админ передал Танка игроку {1}"
+	}
+	"phrase10"
+	{
+		"en"	"Pass the Tank"
+		"ru"	"Передать Танка"
+	}
+	"phrase11"
+	{
+		"en"	"The Tank can only be passed when it hasn't received any damage."
+		"ru"	"Танка можно передать если он не получил урона."
+	}
+	"phrase12"
+	{
+		"en"	"Control Tank Bot"
+		"ru"	"Взять Танка-бота под контроль"
+	}
+	"phrase13"
+	{
+		"#format" "{1:d},{2:d}"
+		"en"	"The Tank pass limit reached [{1}/{2}]."
+		"ru"	"Достигнут лимит передачи Танка [{1}/{2}]."
+	}
+	"phrase14"
+	{
+		"#format" "{1:N},{2:N},{3:d},{4:d}"
+		"en"	"{1} passed the Tank to {2} [{3}/{4}]."
+		"ru"	"{1} передал Танка игроку {2} [{3}/{4}]."
+	}
+}

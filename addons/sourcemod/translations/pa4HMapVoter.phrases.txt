@@ -1,0 +1,204 @@
+"Phrases"
+{
+/*
+	Following colors are supported:
+	{default}
+	{green} is orange
+	{lightgreen} is lightgreen
+	{olive} is green
+*/
+
+	"PREFIX"
+	{
+		"en"		"[PEZDOX]"
+	}
+	"SelectMap"
+	{
+		"en"			"Next campaign:"	
+		"ru"			"Следующая кампания:"
+	}
+	"VoteOnlyOnFinal"
+	{
+		"en"			"{green}You can vote only on final map"	
+		"ru"			"{green}Голосование проводится только на последней карте"
+	}
+	"VoteWinner"
+	{
+		"#format"		"{1:s}"
+		"en"			"{olive}Campaign {green}{1} {olive}selected by most players"	
+		"ru"			"{olive}Кампания {green}{1} {olive}выбрана большинством игроков"
+	}
+	"NextMap"
+	{
+		"#format"		"{1:s}"
+		"en"			"Next campaign {green}{1}"	
+		"ru"			"Следующая кампания {green}{1}"
+	}
+	"VoteStoped"
+	{
+		"#format"		"{1:s}"
+		"en"			"{olive}Next campaign {green}{1}"	
+		"ru"			"{olive}Следующая кампания {green}{1}"
+	}
+	"VotedFor"
+	{
+		"#format"		"{1:s}"
+		"en"			"You voted for {green}{1}"	
+		"ru"			"Вы проголосовали за {green}{1}"
+	}
+	"VoteCancel"
+	{
+		"en"			"You didn't vote. {green}!mapvote {default}for start vote for next map"	
+		"ru"			"Вы не проголосовали. {green}!mapvote {default}чтобы проголосовать за следующую карту"
+	}
+	"PlayerCantVote"
+	{
+		"en"			"{green}You have already {olive}voted"	
+		"ru"			"{green}Вы уже {olive}проголосовали"
+	}
+	"RevoteStart"
+	{
+		"en"			"{olive}Re-voting {green}for the map has begun"	
+		"ru"			"{green}Началось повторное {olive}голосование {default}за карту"
+	}
+	"cantRevote"
+	{
+		"en"			"{green}Re-voting {olive}disabled"	
+		"ru"			"{green}Повторное голосование {olive}отключено"
+	}
+	"noRevote"
+	{
+		"en"			"{green}You can {olive}no {default}longer vote again"	
+		"ru"			"{green}Повторно голосовать {default}больше {olive}нельзя"
+	}
+	
+	"c1m1_hotel"
+	{
+		"en"			"Dead Center"	
+		"ru"			"Вымерший центр"
+	}
+	"c2m1_highway"
+	{
+		"en"			"Dark Carnival"	
+		"ru"			"Мрачный карнавал"
+	}
+	"c3m1_plankcountry"
+	{
+		"en"			"Swamp Fever"	
+		"ru"			"Болотная лихорадка"
+	}
+	"c4m1_milltown_a"
+	{
+		"en"			"Hard Rain"	
+		"ru"			"Ужасный ливень"
+	}
+	"c5m1_waterfront"
+	{
+		"en"			"The Parish"	
+		"ru"			"Приход"
+	}
+	"c6m1_riverbank"
+	{
+		"en"			"The Passing"	
+		"ru"			"Переход"
+	}
+	"c7m1_docks"
+	{
+		"en"			"Sacrifice"	
+		"ru"			"Жертва"
+	}
+	"c8m1_apartment"
+	{
+		"en"			"No Mercy"	
+		"ru"			"Нет Милосердию"
+	}
+	"c9m1_alleys"
+	{
+		"en"			"Crash Course"	
+		"ru"			"Роковой полёт"
+	}
+	"c10m1_caves"
+	{
+		"en"			"Death Toll"	
+		"ru"			"Похоронный звон"
+	}
+	"c11m1_greenhouse"
+	{
+		"en"			"Dead Air"	
+		"ru"			"Смерть в воздухе"
+	}
+	"c12m1_hilltop"
+	{
+		"en"			"Blood Harvest"	
+		"ru"			"Кровавая жатва"
+	}
+	"c13m1_alpinecreek"
+	{
+		"en"			"Cold Stream"	
+		"ru"			"Холодный ручей"
+	}
+	"c14m1_junkyard"
+	{
+		"en"			"The Last Stand"	
+		"ru"			"Последний рубеж"
+	}
+	
+	// Final map > First map
+	
+	"c1m4_atrium"
+	{
+		"en"			"c1m1_hotel"	
+	}
+	"c2m5_concert"
+	{
+		"en"			"c2m1_highway"	
+	}
+	"c3m4_plantation"
+	{
+		"en"			"c3m1_plankcountry"	
+	}
+	"c4m5_milltown_escape"
+	{
+		"en"			"c4m1_milltown_a"	
+	}
+	"c5m5_bridge"
+	{
+		"en"			"c5m1_waterfront"	
+	}
+	"c6m3_port"
+	{
+		"en"			"c6m1_riverbank"	
+	}
+	"c7m3_port"
+	{
+		"en"			"c7m1_docks"	
+	}
+	"c8m5_rooftop"
+	{
+		"en"			"c8m1_apartment"	
+	}
+	"c9m2_lots"
+	{
+		"en"			"c9m1_alleys"	
+	}
+	"c10m5_houseboat"
+	{
+		"en"			"c10m1_caves"	
+	}
+	"c11m5_runway"
+	{
+		"en"			"c11m1_greenhouse"	
+	}
+	"c12m5_cornfield"
+	{
+		"en"			"c12m1_hilltop"	
+	}
+	"c13m4_cutthroatcreek"
+	{
+		"en"			"c13m1_alpinecreek"	
+	}
+	"c14m2_lighthouse"
+	{
+		"en"			"c14m1_junkyard"
+	}
+}

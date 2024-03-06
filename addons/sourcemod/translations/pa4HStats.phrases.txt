@@ -1,0 +1,118 @@
+"Phrases"
+{
+	"PREFIX"
+	{
+		"en"		"[PEZDOX]"
+	}
+	"NewPlayer"
+	{
+		"#format" 	 	"{1:N}"
+		"en"			"New player {lightgreen}{1} {default}is connecting..."
+		"ru"			"Новый игрок {lightgreen}{1} {default}присоединяется..."
+	}
+	"PlayerLoading"
+	{
+	  	"#format"	   	"{1:s},{2:s}"
+		"en"			"{1} {lightgreen}{2} {default}is connecting..."	
+		"ru"			"{1} {lightgreen}{2} {default}присоединяется..."
+	}
+	"PlayerJoin"
+	{
+		"#format"	 	"{1:s},{2:s},{3:s},{4:s}"
+		"en"			"{lightgreen}{1} {default}({green}{2}, {3}{default}) connected! {green}{4}{default}h"	
+		"ru"			"{lightgreen}{1} {default}({green}{2}, {3}{default}) подключился! {green}{4}{default}ч"
+	}
+	"PlayerDisconnect"
+	{
+		"#format"	   	"{1:s},{2:s},{3:s}"
+		"en"			"Player {lightgreen}{2} {default}disconnected ({3})"	
+		"ru"			"Игрок {lightgreen}{2} {default}отключился ({3})"
+	}
+	"PlayerJoinStats"
+	{
+		"#format"		"{1:s},{2:s},{3:s},{4:i},{5:s}"
+		"en"			"{lightgreen}{1} {default}({green}{2}, {3}{default}) connected! ({olive}{4}{default} pos) {green}{5}{default}h"	
+		"ru"			"{lightgreen}{1} {default}({green}{2}, {3}{default}) подключился! ({olive}{4}{default} место) {green}{5}{default}ч"
+	}
+	
+	"PlayerBanned"
+	{
+		"#format"  		"{1:N},{2:s}"
+		"en"			"Banned {lightgreen}{1} {default}tried to connect ({green}{2}{default})"
+		"ru"			"Забаненный {lightgreen}{1} {default}попытался подключиться ({green}{2}{default})"
+	}
+	"UBanned"
+	{
+		"en"		"You have banned. You can submit an appeal on Discord. Website: pa4h.ru"
+		"ru"		"Забанен. Подать аппеляцию можно в Discord. Сайт: pa4h.ru"
+	}
+	"OnBan"
+	{
+		"#format"  		"{1:N}"
+		"en"			"{green}[PEZDOX]{default} {lightgreen}{1}{default} the sucker is banned. More details on the website: {green}pa4h.ru"
+		"ru"			"{green}[PEZDOX]{default} Лошара {lightgreen}{1}{default} забанен! Подробнее на сайте: {green}pa4h.ru"
+	}
+	
+	
+	"PlayerName"
+	{
+		"en"		"Player"
+		"ru"		"Игрок"
+	}
+	"PanelMin"
+	{
+		"en"		"min."
+		"ru"		"мин."
+	}
+	"PanelHour"
+	{
+		"en"		"h."
+		"ru"		"ч."
+	}
+	"StatLoading"
+	{
+		"en"		"Loading..."
+		"ru"		"Загрузка..."
+	}
+	"PanelTitle"
+	{
+		"en"		"Stats"
+		"ru"		"Статистика" 
+	}
+	
+	"PanelScores"
+	{
+		"#format"  	"{1:i}"
+		"en"		"Points: {1}"
+		"ru"		"Очки: {1}"
+	}
+	"PanelTop"
+	{
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Top: {1} of {2}"
+		"ru"		"Место: {1} из {2}"
+	}
+	"PanelPlayTime"
+	{
+		"#format"  	"{1:i},{2:s},{3:i},{4:s}"
+		"en"		"Play time: {1} {2}"
+		"ru"		"Наиграно времени: {1} {2} {3} {4}"
+	}
+	"PanelScoresSession"
+	{
+		"#format"  	"{1:i}"
+		"en"		"Points per map: {1}"
+		"ru"		"Очки за карту: {1}"
+	}
+	"PanelPlayTimeSession"
+	{
+		"#format"  	"{1:i},{2:s}"
+		"en"		"Per session: {1} {2}"
+		"ru"		"За сессию: {1} {2}"
+	}
+	"PanelExit"
+	{
+		"en"		"Close"
+		"ru"		"Закрыть"
+	}
+}

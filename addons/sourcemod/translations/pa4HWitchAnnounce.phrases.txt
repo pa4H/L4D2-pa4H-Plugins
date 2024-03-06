@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Killed"
+	{
+		"en"		"The {green}Witch {default}has been killed!"
+		"ru"		"{green}Ведьма {default}была убита!"
+	}
+}

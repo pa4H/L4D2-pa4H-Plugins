@@ -1,0 +1,87 @@
+"Phrases"
+{
+	"notVIP"
+	{
+		"en"			"You don't have a {green}VIP{default}. You can get {green}VIP{default} on our {olive}Discord {default}server\nWrite {olive}!discord{default} to receive the link."
+		"ru"			"У вас нет {green}VIP{default}. Получить {green}VIP{default} можно на нашем {olive}Discord {default}сервере\nНапишите {olive}!discord{default} для получения ссылки."
+	}
+	"errPrefix"
+	{
+		"en"			"To set a prefix, write: {olive}!perfix \"Your_prefix\""
+		"ru"			"Чтобы установить префикс, напишите: {olive}!perfix \"Ваш_префикс\""
+	}
+	"argVerify"
+	{
+		"en"			"To verify, you need to go to {olive}!discord.\n{default}In the {green}VIP {default}channel, write {olive}/steam {default}and follow the instructions."
+		"ru"			"Для верификации Вам необходимо зайти в {olive}!discord.\n{default}В канале {green}VIP {default}написать {olive}/steam {default}и следовать инструкции."
+	}
+	"okVerify"
+	{
+		"en"			"You have successfully passed {lightgreen}verification!"
+		"ru"			"Вы успешно прошли {lightgreen}верификацию!"
+	}
+	"errFree"
+	{
+		"en"			"You have previously passed {lightgreen}verification{default}.\nYou can purchase {green}VIP {default}on the {lightgreen}pa4h.ru/vip.php"
+		"ru"			"Ранее вы проходили {lightgreen}верификацию{default}.\nПриобрести {green}VIP {default}можно на {lightgreen}pa4h.ru/vip.php"
+	}
+	"errVerify"
+	{
+		"en"			"An {green}error {default}occurred during verification.\nBe sure to let us know in Discord: {olive}!discord"
+		"ru"			"Во время верификации произошла {green}ошибка{default}.\nОбязательно сообщите нам об этом в Discord: {olive}!discord"
+	}
+	"helloVIP"
+	{
+		"#format"		"{1:s}"
+		"en"			"Activated {green}VIP {default}status up to {green}{1}."
+		"ru"			"Активирован {green}VIP {default}статус до {green}{1}."
+	}
+	"VIPisEnd"
+	{
+		"en"			"{green}VIP is {default}over.\nYou can register for a new one on our server {olive}!discord"
+		"ru"			"{green}VIP'ка {default}закончилась.\nОформить новую можно на нашем сервере {olive}!discord"
+	}
+	
+	"okVerifyTemp"
+	{
+		"en"			"You have successfully passed {lightgreen}verification!\n{green}VIP activated until {olive}01.02.2024"
+		"ru"			"Вы успешно прошли {lightgreen}верификацию!\n{green}VIP активирован до {olive}01.02.2024"
+	}
+	
+	"pAll"
+	{
+		"#format"		"{1:s},{2:N},{3:s}"
+		"en"			"*SPECTATOR* {olive}[{1}] {default}{2} : {3}"
+		"ru"			"*НАБЛЮДАТЕЛЬ* {olive}[{1}] {default}{2} : {3}"
+	}
+	"pAllS"
+	{
+		"#format"		"{1:s},{2:N},{3:s}"
+		"en"			"{olive}[{1}] {blue}{2} {default}:  {3}"
+		"ru"			"{olive}[{1}] {blue}{2} {default}:  {3}"
+	}
+	"pAllI"
+	{
+		"#format"		"{1:s},{2:N},{3:s}"
+		"en"			"{olive}[{1}] {red}{2} {default}: {3}"
+		"ru"			"{olive}[{1}] {red}{2} {default}: {3}"
+	}
+	"pSpec"
+	{
+		"#format"		"{1:s},{2:N},{3:s}"
+		"en"			"*SPECTATOR* {olive}[{1}] {default}{2} : {3}"
+		"ru"			"*НАБЛЮДАТЕЛЬ* {olive}[{1}] {default}{2} : {3}"
+	}
+	"pSurv"
+	{
+		"#format"		"{1:s},{2:N},{3:s}"
+		"en"			"(Survivor) {olive}[{1}] {blue}{2} {default}: {3}"
+		"ru" 			"(Выживший) {olive}[{1}] {blue}{2} {default}: {3}"
+	}
+	"pInf"
+	{
+		"#format"		"{1:s},{2:N},{3:s}"
+		"en"			"(Infected) {olive}[{1}] {red}{2} {default}: {3}"
+		"ru" 			"(Зараженный) {olive}[{1}] {red}{2} {default}: {3}"
+	}
+}

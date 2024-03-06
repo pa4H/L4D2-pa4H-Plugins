@@ -1,0 +1,123 @@
+﻿"Phrases"
+{
+	"StartWeaponTip"
+	{
+		"en"	"Type !w to view available weapons."
+		"ru"	"Введите !w, чтобы выбрать оружие."
+	}
+	"OnlyLiveSurvivor"
+	{
+		"en"	"Only live and not incaped survivor can request for weapons."
+		"ru"	"Только выжившие и неупавшие игроки могут получить оружие."
+	}
+	"baseball"
+	{
+		"en"		"Baseball bat"
+		"ru"		"Бейсбольная бита"
+	}
+	"cricket"
+	{
+		"en"		"Cricket bat"
+		"ru"		"Cricket bat"
+	}
+	"crowbar"
+	{
+		"en"		"Crowbar"
+		"ru"		"Монтировка"
+	}
+	"guitar"
+	{
+		"en"		"Guitar"
+		"ru"		"Гитара"
+	}
+	"fireaxe"
+	{
+		"en"		"Fireaxe"
+		"ru"		"Топор"
+	}
+	"frying_pan"
+	{
+		"en"		"Frying pan"
+		"ru"		"Сковорода"
+	}
+	"katana"
+	{
+		"en"		"Katana"
+		"ru"		"Катана"
+	}
+	"machete"
+	{
+		"en"		"Machete"
+		"ru"		"Мачете"
+	}
+	"tonfa"
+	{
+		"en"		"Tonfa"
+		"ru"		"Дубинка"
+	}
+	"golfclub"
+	{
+		"en"		"Golf club"
+		"ru"		"Клюшка для гольфа"
+	}
+	"knife"
+	{
+		"en"		"Knife"
+		"ru"		"Нож"
+	}
+	"gnome"
+	{
+		"en"		"Gnome"
+		"ru"		"Гном"
+	}
+	"pump"
+	{
+		"en"		"Pump"
+		"ru"		"Помпа"
+	}
+	"chrome"
+	{
+		"en"		"Chrome"
+		"ru"		"Хрома"
+	}
+	"smg"
+	{
+		"en"		"Silenced"
+		"ru"		"Silenced"
+	}
+	"uzi"
+	{
+		"en"		"Uzi"
+		"ru"		"Узи"
+	}
+	"sniper"
+	{
+		"en"		"Scout"
+		"ru"		"Ноускоперка"
+	}
+	"MainMenuTitle"
+	{
+		"en"		"Choose weapon"
+		"ru"		"Выберите оружие"
+	}
+	"ChooseWeaponMenuTitle"
+	{
+		"en"		"Choose weapon"
+		"ru"		"Выберите оружие"
+	}
+	"YourWeaponsLimitExcited"
+	{
+		"en"		"You have reached a limit of weapon requests at this round. Limits: {olive}%d{default}/{olive}%d"
+		"ru"		"Вы достигли лимита на максимальное количество запросов: {olive}%d{default}/{olive}%d"
+	}
+	"YourCurrentWeaponLimit"
+	{
+		"en"		"Your current requests limit: {olive}%d{default}/{olive}%d"
+		"ru"		"Текущий лимит запросов: {olive}%d{default}/{olive}%d"
+	}
+	"TheRoundIsLive"
+	{
+		"en"		"Round is {olive}live{default}. You {olive}can not {default} get more weapons."
+		"ru"		"Раунд {olive}уже начался{default}, вы больше {olive}не можете{default} получить оружие."
+	}	
+}

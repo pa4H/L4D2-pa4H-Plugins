@@ -1,0 +1,49 @@
+"Phrases"
+{
+    "adminchatspec"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+        "en" "{default}(SPEC) {1} {teamcolor}{2} {default}:  {3}"
+    } 
+	"chatteamct"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+		"ru" "{default}(Зараженный) {1} {teamcolor}{2} {default}:  {3}"
+        "en" "{default}(Infected) {1} {teamcolor}{2} {default}:  {3}"
+    } 
+	"chatteamctdead"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+		"ru" "{default}(Зараженный) {1} {teamcolor}{2} {default}:  {3}"
+        "en" "{default}(Infected) {1} {teamcolor}{2} {default}:  {3}"
+    }
+	"chatteamt"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+		"ru" "{default}(Выживший) {1} {teamcolor}{2} {default}:  {3}"
+        "en" "{default}(Survivor) {1} {teamcolor}{2} {default}:  {3}"
+    } 
+	"chatteamtdead"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+		"ru" "{default}(Выживший) {1} {teamcolor}{2} {default}:  {3}"
+        "en" "{default}(Survivor) {1} {teamcolor}{2} {default}:  {3}"
+    }
+	"teamchatspec"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+        "en" "{default}(SPEC) {1} {teamcolor}{2} {default}:  {3}"
+    } 
+	"adminchatsay"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+		"ru" "{default}{green}{1} {teamcolor}{2} {default}:  {3}"
+        "en" "{default}{green}{1} {teamcolor}{2} {default}:  {3}"
+    } 
+	"adminchat"
+    {
+		"#format" "{1:s},{2:N},{3:s}"
+		"ru" "{green}{1} {teamcolor}{2} {default}:  {3}"
+        "en" "{green}{1} {teamcolor}{2} {default}:  {3}"
+    }
+}

@@ -1,0 +1,161 @@
+﻿"Phrases"
+{
+	"Kanistru" //Одну канистру
+	{
+		"en"		"can"
+		"ru"		"канистру"
+	}
+	"Kanistry" //Две канистры. 
+	{
+		"en"		"cans"
+		"ru"		"канистры"
+	}
+	"Kanistr" //Пять канистр
+	{
+		"en"		"cans"
+		"ru"		"канистр"
+	}
+	"21Kanistru" //Двадцать одну
+	{
+		"en"		"cans"
+		"ru"		"канистру"
+	}
+	
+	// For spectators
+	"CanWinnerSur"
+	{
+		#format 	"{1:i},{2:s}"
+		"en"		"{olive}[WINNER] {default}Survivor team filled more cans {olive}({1}) | ({2})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Команда выживших собрала больше канистр {olive}({1}) | ({2})"
+	}
+	"CanWinnerInf"
+	{
+		#format 	"{1:i},{2:s}"
+		"en"		"{olive}[WINNER] {default}Infected team filled more cans {olive}({1}) | ({2})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Команда зараженных собрала больше канистр {olive}({1}) | ({2})"
+	}
+	"TimeWinnerSur"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{olive}[WINNER] {default}Survivor team filled {olive}{1} {2} {default}faster | {olive} ({3)}"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Команда выжившых быстрее собрала {olive}{1} {2} | ({3})"
+	}
+	"TimeWinnerInf"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{olive}[WINNER] {default}Infected team filled {olive}{1} {2} {default}faster | {olive} ({3)}"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Команда зараженных быстрее собрала {olive}{1} {2} | ({3})"
+	}
+	"SurvWinnerSur"
+	{
+		#format 	"{1:s}"
+		"en"		"{olive}[WINNER] {default}Survivor team lived longer | {olive}({1})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Команда выживших жила дольше | {olive}({1})"
+	}
+	"SurvWinnerInf"
+	{
+		#format 	"{1:s}"
+		"en"		"{olive}[WINNER] {default}Infected team lived longer | {olive}({1})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Команда зараженных жила дольше | {olive}({1})"
+	}
+	
+	// For Survivors & Infected
+	"WinnerYou"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{olive}[WINNER] {default}Your team filled {olive}{1} {default}{2} | {olive}({3})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Ваша команда собрала {olive}{1} {default}{2} | {olive}({3})"
+	}
+	"LooserEnemy"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{red}Enemy team {default}filled {red}{1} {default}{2} | {olive}({3})"
+		"ru"		"{red}Противники {default}собрали {red}{1} {default}{2} | {olive}({3})"
+	}
+	"WinnerEnemy"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{olive}[WINNER] {default}Enemy team filled {olive}{1} {default}{2} | {red}({3})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Противники собрали {olive}{1} {default}{2} | {red}({3})"
+	}
+	"LooserYou"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{red}Your team {default}filled {red}{1} {default}{2} | {red}({3})"
+		"ru"		"{red}Ваша команда {default}собрала {red}{1} {default}{2} | {red}({3})"
+	}
+	
+	"WinnerTimeYou"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{olive}[WINNER] {default}Your team filled {1} {2} faster | {olive}({3})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Ваша команда быстрее собрала {1} {2} | {olive}({3})"
+	}
+	"LooserTimeEnemy"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{red}Enemy team {default}filled {1} {2} slower | {olive}({3})"
+		"ru"		"{red}Противники {default}медленнее собрали {1} {2} | {olive}({3})"
+	}
+	"LooserTimeYou"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{red}Your team {default}filled {1} {2} slower | {red}({3})"
+		"ru"		"{red}Ваша команда {default}медленнее собрала {1} {2} | {red}({3})"
+	}
+	"WinnerTimeEnemy"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{olive}[WINNER] {default}Enemy team filled {1} {2} faster | {red}({3})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Противники быстрее собрали {1} {2} | {red}({3})"
+	}
+	
+	"WinnerTimeSurvYou"
+	{
+		#format 	"{1:s}"
+		"en"		"{olive}[WINNER] {default}Your team survived longer | {olive}({1})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Ваша команда жила дольше | {olive}({1})"
+	}
+	"LooserTimeSurvEnemy"
+	{
+		#format 	"{1:s}"
+		"en"		"{red} Enemy team {default}survived less | {olive}({1})"
+		"ru"		"{red} Противники {default}погибли быстрее | {olive}({1})"
+	}
+	"LooserTimeSurvYou"
+	{
+		#format 	"{1:s}"
+		"en"		"{red}Your team {default}survived less | {red}({1})"
+		"ru"		"{red}Ваша команда {default}погибла быстрее | {red}({1})"
+	}
+	"WinnerTimeSurvEnemy"
+	{
+		#format 	"{1:s}"
+		"en"		"{olive}[WINNER] {default}Enemy team team survived longer | {red}({1})"
+		"ru"		"{olive}[ПОБЕДИТЕЛЬ] {default}Противники дольше жили | {red}({1})"
+	}
+
+	"Half1"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"Filled {lightgreen}{1} {green}{2} | {olive}({3})"
+		"ru"		"Собрали {lightgreen}{1} {green}{2} | {olive}({3})"
+	}
+	"Half2"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{lightgreen}Your team filled {lightgreen}{1} {green}{2} | {olive}({3})"
+		"ru"		"Ваша команда собрала {lightgreen}{1} {green}{2} | {olive}({3})"
+	}
+	"Half3"
+	{
+		#format 	"{1:i},{2:s},{3:s}"
+		"en"		"{lightgreen}Enemy team filled {lightgreen}{1} {green}{2} | {red}({3})"
+		"ru"		"Противники собрали {lightgreen}{1} {green}{2} | {red}({3})"
+	}
+	"smTimeNo"
+	{
+		"en"		"{green}You can get the time after the end of half a round"
+		"ru"		"{green}Вы можете узнать время после окончания половины раунда"
+	}
+}

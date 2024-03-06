@@ -1,0 +1,427 @@
+"Phrases"
+{
+	"c1m1_hotel"
+	{
+		"en"		"Dead Center: 1. Hotel"
+		"ru"		"Вымерший центр: 1. Отель"
+	}
+	"c1m2_streets"
+	{
+		"en"		"Dead Center: 2. Streets"
+		"ru"		"Вымерший центр: 2. Улицы"
+	}
+	"c1m3_mall"
+	{
+		"en"		"Dead Center: 3. Mall"
+		"ru"		"Вымерший центр: 3. Торговый центр"
+	}
+	"c1m4_atrium"
+	{
+		"en"		"Dead Center: 4. Atrium"
+		"ru"		"Вымерший центр: 4. Атриум"
+	}
+
+	"c2m1_highway"
+	{
+		"en"		"Dark Carnival: 1. Highway"
+		"ru"		"Мрачный карнавал: 1. Автострада"
+	}
+	"c2m2_fairgrounds"
+	{
+		"en"		"Dark Carnival: 2. Fairground"
+		"ru"		"Мрачный карнавал: 2. Базарная площадь"
+	}
+	"c2m3_coaster"
+	{
+		"en"		"Dark Carnival: 3. Coaster"
+		"ru"		"Мрачный карнавал: 3. Американские горки"
+	}
+	"c2m4_barns"
+	{
+		"en"		"Dark Carnival: 4. Barns"
+		"ru"		"Мрачный карнавал: 4. Сараи"
+	}
+	"c2m5_concert"
+	{
+		"en"		"Dark Carnival: 5. Concert"
+		"ru"		"Мрачный карнавал: 5. Концерт"
+	}
+
+	"c3m1_plankcountry"
+	{
+		"en"		"Swamp Fever: 1. Plank Country"
+		"ru"		"Болотная лихорадка: 1. Дощатые задворки"
+	}
+	"c3m2_swamp"
+	{
+		"en"		"Swamp Fever: 2. Swamp"
+		"ru"		"Болотная лихорадка: 2. Болото"
+	}
+	"c3m3_shantytown"
+	{
+		"en"		"Swamp Fever: 3. Shanty Town"
+		"ru"		"Болотная лихорадка: 3. Трущобы"
+	}
+	"c3m4_plantation"
+	{
+		"en"		"Swamp Fever: 4. Plantation"
+		"ru"		"Болотная лихорадка: 4. Плантация"
+	}
+
+	"c4m1_milltown_a"
+	{
+		"en"		"Hard Rain: 1. Milltown"
+		"ru"		"Ужасный ливень: 1. Городишко при заводе"
+	}
+	"c4m2_sugarmill_a"
+	{
+		"en"		"Hard Rain: 2. Sugar Mill"
+		"ru"		"Ужасный ливень: 2. Сахарный завод"
+	}
+	"c4m3_sugarmill_b"
+	{
+		"en"		"Hard Rain: 3. Mill Escape"
+		"ru"		"Ужасный ливень: 3. Бегство с завода"
+	}
+	"c4m4_milltown_b"
+	{
+		"en"		"Hard Rain: 4. Return to Town"
+		"ru"		"Ужасный ливень: 4. Возвращение в город"
+	}
+	"c4m5_milltown_escape"
+	{
+		"en"		"Hard Rain: 5. Town Escape"
+		"ru"		"Ужасный ливень: 5. Бегство из города"
+	}
+
+	"c5m1_waterfront"
+	{
+		"en"		"The Parish: 1. Waterfront"
+		"ru"		"Приход: 1. Берег"
+	}
+	"c5m2_park"
+	{
+		"en"		"The Parish: 2. Park"
+		"ru"		"Приход: 2. Парк"
+	}
+	"c5m3_cemetery"
+	{
+		"en"		"The Parish: 3. Cemetery"
+		"ru"		"Приход: 3. Кладбище"
+	}
+	"c5m4_quarter"
+	{
+		"en"		"The Parish: 4. Quarter"
+		"ru"		"Приход: 4. Квартал"
+	}
+	"c5m5_bridge"
+	{
+		"en"		"The Parish: 5. Bridge"
+		"ru"		"Приход: 5. Мост"
+	}
+
+	"c6m1_riverbank"
+	{
+		"en"		"The Passing: 1. Riverbank"
+		"ru"		"Переход: 1. Берег реки"
+	}
+	"c6m2_bedlam"
+	{
+		"en"		"The Passing: 2. Underground"
+		"ru"		"Переход: 2. Подземелье"
+	}
+	"c6m3_port"
+	{
+		"en"		"The Passing: 3. Port"
+		"ru"		"Переход: 3. Порт"
+	}
+	"c7m1_docks"
+	{
+		"en"		"The Sacrifice: 1. Docks"
+		"ru"		"Жертва: 1. Доки"
+	}
+	"c7m2_barge"
+	{
+		"en"		"The Sacrifice: 2. Barge"
+		"ru"		"Жертва: 2. Баржа"
+	}
+	"c7m3_port"
+	{
+		"en"		"The Sacrifice: 3. Port"
+		"ru"		"Жертва: 3. Порт"
+	}
+
+	"c8m1_apartment"
+	{
+		"en"		"No Mercy: 1. The Apartments"
+		"ru"		"Нет милосердию: 1. Апартаменты
+	}
+	"c8m2_subway"
+	{
+		"en"		"No Mercy: 2. The Subway"
+		"ru"		"Нет милосердию: 2. Метро"
+	}
+	"c8m3_sewers"
+	{
+		"en"		"No Mercy: 3. The Sewer"
+		"ru"		"Нет милосердию: 3. Канализация"
+	}
+	"c8m4_interior"
+	{
+		"en"		"No Mercy: 4. The Hospital"
+		"ru"		"Нет милосердию: 4. Госпиталь"
+	}
+	"c8m5_rooftop"
+	{
+		"en"		"No Mercy: 5. Rooftop Finale"
+		"ru"		"Нет милосердию: 5. Крыша"
+	}
+	"c9m1_alleys"
+	{
+		"en"		"Crash Course: 1. The Alleys"
+		"ru"		"Роковой полёт: 1. Переулки"
+	}
+	"c9m2_lots"
+	{
+		"en"		"Crash Course: 2. The Turck Depot Finale"
+		"ru"		"Роковой полёт: 2. Гараж"
+	}
+
+	"c10m1_caves"
+	{
+		"en"		"Death Toll: 1. The Turnpike"
+		"ru"		"Похоронный звон: 1. Ограждение"
+	}
+	"c10m2_drainage"
+	{
+		"en"		"Death Toll: 2. The Drains"
+		"ru"		"Похоронный звон: 2. Водосток"
+	}
+	"c10m3_ranchhouse"
+	{
+		"en"		"Death Toll: 3. The Church"
+		"ru"		"Похоронный звон: 3. Церковь"
+	}
+	"c10m4_mainstreet"
+	{
+		"en"		"Death Toll: 4. The Town"
+		"ru"		"Похоронный звон: 4. Город"
+	}
+	"c10m5_houseboat"
+	{
+		"en"		"Death Toll: 5. Boathouse Finale"
+		"ru"		"Похоронный звон: 5. Лодочная станция"
+	}
+
+	"c11m1_greenhouse"
+	{
+		"en"		"Dead Air: 1. The Greenhouse"
+		"ru"		"Смерть в воздухе: 1. Теплица"
+	}
+	"c11m2_offices"
+	{
+		"en"		"Dead Air: 2. The Crane"
+		"ru"		"Смерть в воздухе: 2. Кран"
+	}
+	"c11m3_garage"
+	{
+		"en"		"Dead Air: 3. The Constructiom Site"
+		"ru"		"Смерть в воздухе: 3. Стройка"
+	}
+	"c11m4_terminal"
+	{
+		"en"		"Dead Air: 4. The Terminal"
+		"ru"		"Смерть в воздухе: 4. Терминал"
+	}
+	"c11m5_runway"
+	{
+		"en"		"Dead Air: 5. Runway Finale"
+		"ru"		"Смерть в воздухе: 5. Взлётная полоса"
+	}
+
+	"c12m1_hilltop"
+	{
+		"en"		"Blood Harvest: 1. The Woods"
+		"ru"		"Кровавая жатва: 1. Леса"
+	}
+	"c12m2_traintunnel"
+	{
+		"en"		"Blood Harvest: 2. The Tunnel"
+		"ru"		"Кровавая жатва: 2. Туннель"
+	}
+	"c12m3_bridge"
+	{
+		"en"		"Blood Harvest: 3. The Bridge"
+		"ru"		"Кровавая жатва: 3. Мост"
+	}
+	"c12m4_barn"
+	{
+		"en"		"Blood Harvest: 4. The Train Station"
+		"ru"		"Кровавая жатва: 4. Ж/Д станция"
+	}
+	"c12m5_cornfield"
+	{
+		"en"		"Blood Harvest: 5. Farmhouse Finale"
+		"ru"		"Кровавая жатва: 5. Ферма"
+	}
+
+	"c13m1_alpinecreek"
+	{
+		"en"		"Cold Stream: 1. Alpine Creek"
+		"ru"		"Холодный ручей: 1. Альпийский ручей"
+	}
+	"c13m2_southpinestream"
+	{
+		"en"		"Cold Stream: 2. South Pine Stream"
+		"ru"		"Холодный ручей: 2. Южный хвойный ручей"
+	}
+	"c13m3_memorialbridge"
+	{
+		"en"		"Cold Stream: 3. Memorial Bridge"
+		"ru"		"Холодный ручей: 3. Памятный мост"
+	}
+	"c13m4_cutthroatcreek"
+	{
+		"en"		"Cold Stream: 4. Cut-throat Creek"
+		"ru"		"Холодный ручей: 4. Узкий пролив"
+	}
+
+	"c14m1_junkyard"
+	{
+		"en"		"The Last Stand: 1. The Junkyard"
+		"ru"		"Последний рубеж: 1. Свалка"
+	}
+	"c14m2_lighthouse"
+	{
+		"en"		"The Last Stand: 2. Lighthouse"
+		"ru"		"Последний рубеж: 2. Маяк"
+	}
+	
+	"L4D2C1"
+	{
+		"en"		"Dead Center"
+		"ru"		"Вымерший центр"
+	}
+	"L4D2C2"
+	{
+		"en"		"Dark Carnival"
+		"ru"		"Мрачный карнавал"
+	}
+	"L4D2C3"
+	{
+		"en"		"Swamp Fever"
+		"ru"		"Болотная лихорадка"
+	}
+	"L4D2C4"
+	{
+		"en"		"Hard Rain"
+		"ru"		"Ужасный ливень"
+	}
+	"L4D2C5"
+	{
+		"en"		"The Parish"
+		"ru"		"Приход"
+	}
+	"L4D2C6"
+	{
+		"en"		"The Passing"
+		"ru"		"Переход"
+	}
+	"L4D2C7"
+	{
+		"en"		"The Sacrifice"
+		"ru"		"Жертва"
+	}
+	"L4D2C8"
+	{
+		"en"		"No Mercy"
+		"ru"		"Нет милосердию"
+	}
+	"L4D2C9"
+	{
+		"en"		"Crash Course"
+		"ru"		"Роковой полёт"
+	}
+	"L4D2C10"
+	{
+		"en"		"Death Toll"
+		"ru"		"Похоронный звон"
+	}
+	"L4D2C11"
+	{
+		"en"		"Dead Air"
+		"ru"		"Смерть в воздухе"
+	}
+	"L4D2C12"
+	{
+		"en"		"Blood Harvest"
+		"ru"		"Кровавая жатва"
+	}
+	"L4D2C13"
+	{
+		"en"		"Cold Stream"
+		"ru"		"Холодный ручей"
+	}
+	"L4D2C14"
+	{
+		"en"		"The Last Stand"
+		"ru"		"Последний рубеж"
+	}
+	
+	"mapL4D2C1"
+	{
+		"en"		"c1m1_hotel"
+	}
+	"mapL4D2C2"
+	{
+		"en"		"c2m1_highway"
+	}
+	"mapL4D2C3"
+	{
+		"en"		"c3m1_plankcountry"
+	}
+	"mapL4D2C4"
+	{
+		"en"		"c4m1_milltown_a"
+	}
+	"mapL4D2C5"
+	{
+		"en"		"c5m1_waterfront"
+	}
+	"mapL4D2C6"
+	{
+		"en"		"c6m1_riverbank"
+	}
+	"mapL4D2C7"
+	{
+		"en"		"c7m1_docks"
+	}
+	"mapL4D2C8"
+	{
+		"en"		"c8m1_apartment"
+	}
+	"mapL4D2C9"
+	{
+		"en"		"c9m1_alleys"
+	}
+	"mapL4D2C10"
+	{
+		"en"		"c10m1_caves"
+	}
+	"mapL4D2C11"
+	{
+		"en"		"c11m1_greenhouse"
+	}
+	"mapL4D2C12"
+	{
+		"en"		"c12m1_hilltop"
+	}
+	"mapL4D2C13"
+	{
+		"en"		"c13m1_alpinecreek"
+	}
+	"mapL4D2C14"
+	{
+		"en"		"c14m1_junkyard"
+	}
+}

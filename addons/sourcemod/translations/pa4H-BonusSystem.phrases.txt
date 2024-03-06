@@ -1,0 +1,21 @@
+"Phrases"
+{
+	"ShowBonus"
+	{
+		#format		"{1:i},{2:i},{3:i},{4:i},{5:i}"
+		"en"		"{green}[BonusSystem] {olive}Bonus: {lightgreen}{1}/450.\n{olive}Witch: {lightgreen}{2}/50. {olive}Medkits: {lightgreen}{3}/200. {olive}Incaps: {lightgreen}{4}/100. {olive}Deaths: {lightgreen}{5}/100."
+		"ru"		"{green}[BonusSystem] {olive}Бонус: {lightgreen}{1}/450.\n{olive}Ведьма: {lightgreen}{2}/50. {olive}Аптечки: {lightgreen}{3}/200. {olive}Инкапы: {lightgreen}{4}/100. {olive}Смерти: {lightgreen}{5}/100."
+	}
+	"RoundFinal"
+	{
+		#format		"{1:i}"
+		"en"		"{green}[BonusSystem] {lightgreen}The round is over!\n{olive}Total bonus per map: {lightgreen}{1}/450"
+		"ru"		"{green}[BonusSystem] {lightgreen}Раунд окончен!\n{olive}Общий бонус за карту: {lightgreen}{1}/450"
+	}
+	"Bonuses"
+	{
+		#format		"{1:i},{2:i},{3:i},{4:i}"
+		"en"		"{olive}► Witch:   {lightgreen}{1}/50\n{olive}► Medkits:  {lightgreen}{2}/200\n{olive}► Incaps:   {lightgreen}{3}/100\n{olive}► Deaths:   {lightgreen}{4}/100"
+		"ru"		"{olive}► Ведьма:   {lightgreen}{1}/50\n{olive}► Аптечки:  {lightgreen}{2}/200\n{olive}► Инкапы:   {lightgreen}{3}/100\n{olive}► Смерти:   {lightgreen}{4}/100"
+	}
+}
