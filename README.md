@@ -275,11 +275,11 @@ exec secure.cfg
 
 # My plugins
 <details><summary><b>Tank and Witch on every map</b></summary>
- * [Название](Ссылка): This plugin will make the game spawn a Tank with a Witch on EVERY map
-   * **For work you need [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)**
-   * After the start of the campaign, the plugin randomly selects the spawn position of Tank and Witch.
-   * __!boss__ command available. It will show on what percentage of the progress the Tank & Witch will appear.
-   * Additionally, the plugin displays a message about Tank encounter.
+  * [Название](Ссылка): This plugin will make the game spawn a Tank with a Witch on EVERY map
+    * **For work you need [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)**
+    * After the start of the campaign, the plugin randomly selects the spawn position of Tank and Witch.
+    * __!boss__ command available. It will show on what percentage of the progress the Tank & Witch will appear.
+    * Additionally, the plugin displays a message about Tank encounter.
 </details>
 
 <details><summary><b>Server | 伺服器</b></summary>
