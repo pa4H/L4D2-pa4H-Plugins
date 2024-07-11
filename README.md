@@ -303,40 +303,61 @@ exec secure.cfg
     * 1 __explosive__  
 </details>
 
-<details><summary><b>Название</b></summary>
+<details><summary><b>Map Voter</b></summary>
 
   * [Download](/sourcemod/plugins): Описание
     *
 	*
 </details>
 
-<details><summary><b>Название</b></summary>
+<details><summary><b>!w</b></summary>
 
   * [Download](/sourcemod/plugins): Описание
     *
 	*
 </details>
 
-<details><summary><b>Название</b></summary>
+<details><summary><b>ConnectAnnounce (with hours)</b></summary>
 
   * [Download](/sourcemod/plugins): Описание
     *
 	*
 </details>
 
-<details><summary><b>Название</b></summary>
+<details><summary><b>ЧОТКО В ЖБАН</b></summary>
 
   * [Download](/sourcemod/plugins): Описание
     *
 	*
 </details>
 
-<details><summary><b>Название</b></summary>
+<details><summary><b>New Vote System</b></summary>
 
   * [Download](/sourcemod/plugins): Описание
     *
 	*
 </details>
+
+Simple ADV
+Welcome MSG
+[pa4H]AntiBunny
+[pa4H]FakeAdminPing
+[pa4H]HighPingKicker
+[pa4H]NoSpray
+[pa4H]PointInNick
+[pa4H]Kegly
+[pa4H]AntiMapfixes
+[pa4H]BonusSystem
+[pa4H]TankHP
+[pa4H]VoteBoss
+[pa4H]WitchDamageAnnounce
+[pa4H]WitchSit
+[pa4H]GamemodeKeep
+[pa4H]ScavengeAutoRematch
+[pa4H]ScavengeHelper
+[pa4H]SpecListener
+[pa4H]AllVoteBlocker
+[pa4H]MoreCoopBots
 
 <details><summary><b>Dummy</b></summary>
 
