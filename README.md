@@ -1,13 +1,27 @@
-# [L4D2] ServerCMDS
+# Various things from my PEZDOX™ Left4Dead2 server
 
-A simple plugin that allows admins to use following commands:
+> This collection consists of various things that are on my server.
+> It includes plugins, Stripper:Source configs, server.cfg and much, much more.
+> Some content is not my own creation. I do not claim authorship of other people's works. 
+> I have made changes to some files and want to share these changes with you.
 
-__!refreshplugins__ — execute a server commands ***sm plugins refresh*** and ***sm_reload_translations***  
-__!servercfg__ — execute a server command ***exec server.cfg***  
-__!director_start__ — execute a server command ***director_start***  
-__!director_stop__ — execute a server command ***director_stop***  
-__!grabTank__ — execute a client command ***sm_forcepass***. Using with [Tank Pass](https://forums.alliedmods.net/showthread.php?p=2712082) plugin  
-__!killall__ — kill all ***survivors***  
+# Recommended
+* SourceMod v1.11 Compilator
+* [Left4DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)
+* [100 Tickrate](https://github.com/accelerator74/Tickrate-Enabler)
 
-##
-[Developer](https://vk.com/pa4h1337)
+* <details><summary><b>My Plugins</b></summary>
+
+  * [Название](Ссылка): Краткое описание
+    * Описание
+  * [Название](Ссылка): Краткое описание
+    * Описание
+	
+</details>
+
+# Contact with me
+[Telegram](https://t.me/pa4H232)
+[Steam](https://https://steamcommunity.com/id/pa4h1337/)
+[VK.com](https://vk.com/pa4h1337)
+[Discord](https://discord.gg/3zzud2jbRC)
+[My website](https://pa4h.ru)
