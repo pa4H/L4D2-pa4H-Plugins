@@ -282,7 +282,7 @@ exec secure.cfg
    * Additionally, the plugin displays a message about Tank encounter.
 </details>
 
-* <details><summary><b>Server | 伺服器</b></summary>
+<details><summary><b>Server | 伺服器</b></summary>
 
   * [server_display_list](/Plugin_插件/Server_伺服器/server_display_list): Type Command to show Vpn List
     * 輸入指令顯示 Server/Vpn 列表
