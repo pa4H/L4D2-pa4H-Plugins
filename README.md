@@ -150,7 +150,7 @@
 </details>
 
 <details><summary><b>My Server.cfg</b></summary>
-```
+```C++
   hostname "PEZDOX | Versus #1" 
 
 //mp_roundlimit 5 // Пять раундов в сборе. Тут не работает
