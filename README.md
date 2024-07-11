@@ -148,6 +148,14 @@ Loaded plugins:
 </details>
 
 <details><summary><b>My Server.cfg</b></summary>
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
 ```C#
   hostname "PEZDOX | Versus #1" 
 
