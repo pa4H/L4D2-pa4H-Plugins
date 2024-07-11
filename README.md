@@ -141,16 +141,14 @@
 
 <details><summary><b>plugin_print</b></summary>
 
-  Loaded plugins:  
----------------------  
+Loaded plugins:  
 0:	"Metamod:Source 1.11.0-dev+1155"  
-1:	"Tickrate_Enabler 1.5, ProdigySim"  
----------------------
+1:	"Tickrate_Enabler 1.5, ProdigySim"
 	
 </details>
 
 <details><summary><b>My Server.cfg</b></summary>
-```C++
+```C#
   hostname "PEZDOX | Versus #1" 
 
 //mp_roundlimit 5 // Пять раундов в сборе. Тут не работает
