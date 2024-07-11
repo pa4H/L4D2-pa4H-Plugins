@@ -108,63 +108,167 @@
 
 <details><summary><b>meta list</b></summary>
 
-  Listing 8 plugins:
-  [01] L4DToolZ (2.0.1) by Accelerator, Ivailosp
-  [02] Pounce Damage Uncap (1.1.0.0-1) by Michael "ProdigySim" Busby, $atanic $pirit
-  [03] SourceMod (1.11.0.6968) by AlliedModders LLC
-  [04] Stripper (1.2.2) by BAILOPAN
-  [05] Actions (3.7.6) by BHaType
-  [06] SDK Tools (1.11.0.6968) by AlliedModders LLC
-  [07] SDK Hooks (1.11.0.6968) by AlliedModders LLC
-  [08] DHooks (1.11.0.6968) by AlliedModders LLC
+  Listing 8 plugins:  
+  [01] L4DToolZ (2.0.1) by Accelerator, Ivailosp  
+  [02] Pounce Damage Uncap (1.1.0.0-1) by Michael "ProdigySim" Busby, $atanic $pirit  
+  [03] SourceMod (1.11.0.6968) by AlliedModders LLC  
+  [04] Stripper (1.2.2) by BAILOPAN  
+  [05] Actions (3.7.6) by BHaType  
+  [06] SDK Tools (1.11.0.6968) by AlliedModders LLC  
+  [07] SDK Hooks (1.11.0.6968) by AlliedModders LLC  
+  [08] DHooks (1.11.0.6968) by AlliedModders LLC  
 	
 </details>
 
 <details><summary><b>sm exts list</b></summary>
 
-  [SM] Displaying 13 extensions:
-[01] Actions (3.7.6): Nextbot action tree manager
-[02] Console Cleaner (1.3.0): Console warning suppressor
-[03] SDK Tools (1.11.0.6968): Source SDK Tools
-[04] BinTools (1.11.0.6968): Low-level C/C++ Calling API
-[05] SDK Hooks (1.11.0.6968): Source SDK Hooks
-[06] Client Preferences (1.11.0.6968): Saves client preference settings
-[07] SQLite (1.11.0.6968): SQLite Driver
-[08] DHooks (1.11.0.6968): Dynamic Hooks
-[09] GeoIP (1.11.0.6968): Geographical IP information
-[10] REST in Pawn (1.3.1): Provides HTTP and JSON natives for plugins
-[11] Regex (1.11.0.6968): Provides regex natives for plugins
-[12] Top Menus (1.11.0.6968): Creates sorted nested menus
-[13] MySQL-DBI (1.11.0.6968): MySQL driver implementation for DBI
+  [SM] Displaying 13 extensions:  
+[01] Actions (3.7.6): Nextbot action tree manager  
+[02] Console Cleaner (1.3.0): Console warning suppressor  
+[03] SDK Tools (1.11.0.6968): Source SDK Tools  
+[04] BinTools (1.11.0.6968): Low-level C/C++ Calling API  
+[05] SDK Hooks (1.11.0.6968): Source SDK Hooks  
+[06] Client Preferences (1.11.0.6968): Saves client preference settings  
+[07] SQLite (1.11.0.6968): SQLite Driver  
+[08] DHooks (1.11.0.6968): Dynamic Hooks  
+[09] GeoIP (1.11.0.6968): Geographical IP information  
+[10] REST in Pawn (1.3.1): Provides HTTP and JSON natives for plugins  
+[11] Regex (1.11.0.6968): Provides regex natives for plugins  
+[12] Top Menus (1.11.0.6968): Creates sorted nested menus  
+[13] MySQL-DBI (1.11.0.6968): MySQL driver implementation for DBI  
 	
 </details>
 
 <details><summary><b>plugin_print</b></summary>
 
-  Loaded plugins:
+  Loaded plugins:  
+---------------------  
+0:	"Metamod:Source 1.11.0-dev+1155"  
+1:	"Tickrate_Enabler 1.5, ProdigySim"  
 ---------------------
-0:	"Metamod:Source 1.11.0-dev+1155"
-1:	"Tickrate_Enabler 1.5, ProdigySim"
----------------------
-	
-</details>
-
-<details><summary><b>My Plugins</b></summary>
-
-  * [Название](Ссылка): Краткое описание
-    * Описание
-  * [Название](Ссылка): Краткое описание
-    * Описание
 	
 </details>
 
 <details><summary><b>My Server.cfg</b></summary>
+```
+  hostname "PEZDOX | Versus #1" 
 
-  * [Название](Ссылка): Краткое описание
-    * Описание
-  * [Название](Ссылка): Краткое описание
-    * Описание
-	
+//mp_roundlimit 5 // Пять раундов в сборе. Тут не работает
+
+// Server //
+sv_lan 0
+sv_allow_lobby_connect_only 1  // САМЫЙ ВАЖНЫЙ КВАР
+motd_enabled 0 
+
+sm_cvar sv_visiblemaxplayers 10
+sm_cvar sv_maxplayers 24
+sm_cvar sv_force_unreserved 0
+
+sm_cvar sv_gametypes "versus"
+sm_cvar mp_gamemode "versus"
+sm_cvar lock_gamemode "versus"
+sm_cvar sv_tags "versus, pezdox"
+sm_cvar sv_search_key "versus, pezdox"
+sv_region 3
+sv_steamgroup_exclusive 0
+
+sm_cvar vs_max_team_switches 5	  	  // Возможность 5 раз менять команду
+sm_cvar sb_all_bot_game 1		 	  // Чтоб игра не завершалась когда в команде нет игроков
+sm_cvar allow_all_bot_survivor_team 1 // Чтоб игра не завершалась когда в команде нет игроков
+bot_join_after_player 0
+
+// SYNXRA //
+sm_cvar nb_update_frequency 0
+sm_cvar sv_minrate 100000
+sm_cvar sv_maxrate 100000
+sm_cvar sv_minupdaterate 100
+sm_cvar sv_maxupdaterate 100
+sm_cvar sv_mincmdrate 100
+sm_cvar sv_maxcmdrate 100
+sm_cvar sv_client_min_interp_ratio 0
+sm_cvar sv_client_max_interp_ratio 0
+sm_cvar fps_max 0
+sm_cvar sv_client_predict 1
+sm_cvar sv_unlag 1
+sm_cvar sv_maxunlag 0.5
+sm_cvar net_maxcleartime 0.001
+sm_cvar net_splitrate 2
+sm_cvar net_splitpacket_maxrate 100000
+mat_queue_mode 2
+
+// Infected //
+sm_cvar z_witch_damage_per_kill_hit 60
+sm_cvar tongue_choke_damage_amount 7
+sm_cvar z_jockey_ride_damage 3
+sm_cvar z_door_pound_damage 160
+//sm_cvar boomer_pz_claw_dmg 10
+//sm_cvar hunter_pz_claw_dmg 10
+//sm_cvar jockey_pz_claw_dmg  10
+//sm_cvar smoker_pz_claw_dmg 10
+//sm_cvar spitter_pz_claw_dmg 10
+
+// Патроны //
+sm_cvar ammo_shotgun_max "80"
+sm_cvar ammo_smg_max "750"
+sm_cvar ammo_sniperrifle_max "60"
+
+
+// Logs //
+sv_rcon_banpenalty 0
+sv_rcon_maxfailures 1
+sv_rcon_minfailures 1
+sv_rcon_minfailuretime 0
+log on
+sv_rcon_log 1
+sv_logbans 1
+sv_logecho 1
+sv_logfile 1
+sv_log_onefile 0
+mp_logdetail 3
+exec banned_ip.cfg
+exec banned_user.cfg
+writeid
+writeip
+
+// FastDL //
+sv_pure 0
+sv_consistency 0
+sv_downloadurl "http://pa4h.ru/!l4d2"
+sv_allowdownload 0
+sv_allowupload 0
+
+// Commons //
+sm_cvar z_common_limit "20" // Общее население
+sm_cvar z_mob_spawn_max_size "25" // Максимальное сколько прибежит в волне
+sm_cvar z_mob_spawn_min_size "10" // Минимальное сколько прибежит в волне
+sm_cvar z_mega_mob_size "40" // При паническом событии.
+
+// TANK or WITCH//
+sm_cvar sv_force_time_of_day 0 // Сидячая Вича на всех картах
+sm_cvar z_frustration_lifetime 60 // Контроль Танка
+sm_cvar l4d_tank_pass_count 100
+sm_cvar z_tank_health 5500 // 8250 ХП
+sm_cvar z_tank_damage_slow_min_range 0
+sm_cvar z_tank_damage_slow_max_range 100
+sm_cvar tank_stuck_time_suicide "999"
+sm_cvar z_witch_burn_time "25"
+sm_cvar tank_burn_duration "100"
+
+// Delays //
+sm_cvar decalfrequency 1.0 // Задержка спрея
+sm_cvar sv_vote_kick_ban_duration 1 // Сколько секунд будет длится бан после кика
+
+sm_cvar sv_pz_endgame_vote_period 20 
+sm_cvar sv_pz_endgame_vote_post_period 20
+sm_cvar scavenge_round_setup_time 15
+sm_cvar scavenge_round_restart_delay 1
+//sm_cvar scavenge_match_finished_delay 1
+sm_cvar scavenge_round_restart_delay_tied 1
+sm_cvar versus_round_restarttimer 5 // Время подсчета очков versus
+
+exec bots.cfg
+exec secure.cfg
+```	
 </details>
 
 # Contact with me
