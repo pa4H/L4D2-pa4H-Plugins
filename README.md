@@ -277,43 +277,73 @@ exec secure.cfg
 
 <details><summary><b>Tank and Witch on every map</b></summary>
 
-  * [Download](/sourcemod/plugins/[pa4H]ServerCmds.smx): This plugin will make the game spawn a Tank with a Witch on EVERY map
-    * **For work you need [Left 4 DHooks Direct](https://forums.alliedmods.net/showthread.php?t=321696)**
+  * [Download](/sourcemod/plugins): This plugin will make the game spawn a Tank with a Witch on EVERY map
     * After the start of the campaign, the plugin randomly selects the spawn position of Tank and Witch.
     * __!boss__ command available. It will show on what percentage of the progress the Tank & Witch will appear.
     * Additionally, the plugin displays a message about Tank encounter.
 </details>
 
-<details><summary><b>Server | 伺服器</b></summary>
+<details><summary><b>Set Item Count</b></summary>
 
-  * [server_display_list](/Plugin_插件/Server_伺服器/server_display_list): Type Command to show Vpn List
-    * 輸入指令顯示 Server/Vpn 列表
-  * [l4d_slot_vote](/Plugin_插件/Server_伺服器/l4d_slot_vote): Allow players to change server slots by using vote. + Kick non-admin spectators
-    * 允許玩家使用命令更改伺服器人數上限 + 踢除非管理員的所有旁觀者
-  * [sm_PlayerTime](/Plugin_插件/Server_伺服器/sm_PlayerTime): Showing the time played in Game Stats while player joins the server
-    * 當玩家連線進來伺服器之後，顯示玩家的遊戲時數
-  * [l4d_vote_block](/Plugin_插件/Server_伺服器/l4d_vote_block): Unable to call valve vote depending on gamemode and difficulty.
-    * 根據遊戲模式和難度禁止使用Esc->發起投票
-  * [l4d2_scripted_hud](/Plugin_插件/Server_伺服器/l4d2_scripted_hud): Display text for up to 5 scripted HUD slots on the screen.
-    * 在玩家畫面上方五個Hud位置顯示不同的特殊文字
-  * [readyup](/Plugin_插件/Server_伺服器/readyup): Ready-up plugin
-    * 所有玩家準備才能開始遊戲的插件
-  * [pause](/Plugin_插件/Server_伺服器/pause): Pause plugin
-    * 暫停遊戲的插件
-  * [l4d_playerjoining](/Plugin_插件/Server_伺服器/l4d_playerjoining): Informs other players when a client connects to the server and changes teams.
-    * 當玩家更換隊伍、連線、離開伺服器之時，通知所有玩家
-  * [server_welcome_message](/Plugin_插件/Server_伺服器/server_welcome_message): Display Welcome Message to new players (support translation)
-    * 玩家加入伺服器後，聊天視窗顯示歡迎訊息 (支援多國語言)
-  * [l4d_scoreboard_panel](/Plugin_插件/Server_伺服器/l4d_scoreboard_panel): Display a sourcemod panel when players press the SCORE key.
-    * 按下Tab之後出現玩家列表介面，顯示每個玩家的狀態
-  * [l4d2_vote_change](/Plugin_插件/Server_伺服器/l4d2_vote_change): New Vote System (use L4D built-in votes UI)
-    * 新型投票系統 (使用官方內建的投票)
-  * [ban_country_player](/Plugin_插件/Server_伺服器/ban_country_player): Whitelist or ban players from specific country or area
-    * 限制來自某些國家或地區的玩家，禁止進入伺服器
-  * [l4d_switchteam_panel](/Plugin_插件/Server_伺服器/l4d_switchteam_panel): Admin can use panel to swap player to another team
-    * 管理員可以使用介面強制轉移玩家到另一個隊伍
+  * [Download](/sourcemod/plugins): Allows you to set a fixed number of items to appear
+	* Big thanks to AiKi and Crimson_Fox  
+  
+    * __!itemcount__ - Displays the number of items on the map in chat. Only for admins.  
+    * The plugin does not affect first aid kits in the initial saferoom.  
+	
+    * There are 4 + 2 __first aid kits__ on the maps.  
+    * On the last map there are 4 + 4 __first aid kits__.
+    * 4 __pain pill__  
+    * 2 __adrenaline__  
+    * 1 __defibrillator__  
+    * 2 __vomitjar__  
+    * 2 __molotov__  
+    * 4 __pipe bomb__  
+    * 1 __incendiary__  
+    * 1 __explosive__  
 </details>
 
+<details><summary><b>Название</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>Название</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>Название</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>Название</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>Название</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>Dummy</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
 
 # Contact with me
 * [Telegram](https://t.me/pa4H232)  
