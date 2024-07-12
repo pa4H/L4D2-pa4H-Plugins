@@ -440,9 +440,27 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Map Voter</b></summary>
 
-  * [Download](/L4D2-Plugins/MapVoter): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/MapVoter): The plugin displays a menu at the end of the round with voting for the next map.
+    * You definitely need a plugin __l4d2_changelevel.smx__. It comes bundled with the plugin 
+    * Work only in versus.  
+	* Displays the number of votes next to the card name.  
+	* It is possible to choose at what hour the voting will start (0 or 1)  
+	* It is possible to re-vote 1 time
+
+## Available commands:
+__!revote__  
+__!mapvote__  
+__!votemap__  
+__!mv__  
+__!rtv__  
+
+## ConVars:
+__sm_cvar timeToEndVote 30__  
+__sm_cvar timeToChangeMap 10__  
+__sm_cvar voteOnRound 1__  
+__sm_cvar canRevote 0__  
+
+##
 </details>
 
 <details><summary><b>!w</b></summary>
@@ -492,9 +510,38 @@ sv_allowupload 0
 
 <details><summary><b>New Vote System</b></summary>
 
-  * [Download](/L4D2-Plugins/NewVoteSystem): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/NewVoteSystem): The voting system is written from scratch.
+    * You definitely need a plugin __l4d2_changelevel.smx__. It comes bundled with the plugin  
+Plugin allows you to:
+1. Create custom votes: sm_customVote <VoteText> <PassVoteText>
+2. Vote for kick a player from another team.
+3. Vote for killing infected bots: __!killbots__, __!kb__.
+4. Vote for kick of spectators: __!kickspec__, __!ks__, __!sk__, __!nospec__, __!speckick__.
+5. Ability to use the __!rematch__ command. (Just start RestartChapter vote)
+  
+Fixed a game bug when 60% of votes are not pass the vote. (VALVe, did you skip math lessions?)
+
+Plugin disable "Return to Lobby".
+
+Plugin keeps alltalk enabled if players voted to enable it.
+
+Fixed game bug "Voting is already started".
+
+## FAQ:
+```
+  Q: Why player who created the vote not vote "Yes" automatically?
+  A: It might be for trolling. If an inattentive player votes "YES" when the vote for kick his.
+  
+  Q: Why plugin allow to votekick players from another team
+  A: This is a game bug that has existed since the release. I'm not going to change the established mechanics of the game.
+  
+  Q: Map change not working!
+  A: Did you forget about l4d2_changelevel.smx? Put it in your plugins folder.
+  
+  Q: How to compile?
+  A: Compiled on SourceMod 1.11. Additionally you need colors.inc
+ ```
+ ##
 </details>
 
 <details><summary><b>WitchSit</b></summary>
