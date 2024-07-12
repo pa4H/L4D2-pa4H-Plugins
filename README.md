@@ -618,13 +618,13 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/NewVoteSystem/VoteBoss): Описание
     * __WARNING!!!__ This plugin is part of the [New Vote System](/L4D2-Plugins/NewVoteSystem) plugin.
 	* Adds the __!voteboss <tank%> <witch%>__ command
-	* Example: !voteboss 10 20, where 10% is the percentage of Tank spawn. 20% is the percentage of the Witch's spawn.
+	* Example: __!voteboss 10 20__, where 10% is the percentage of Tank spawn. 20% is the percentage of the Witch's spawn.
  ##
 </details>
 
 <details><summary><b>TankHP</b></summary>
 
-  * [Download](/L4D2-Plugins/TankHP): Just see screenshot :)
+  * [Download](/L4D2-Plugins/TankHP): Just see screenshot :)  
   ![picture](/git/tankHP.png)
 </details>
 
@@ -642,7 +642,7 @@ Fixed game bug "Voting is already started".
 <details><summary><b>AntiMapfixes</b></summary>
 
   * [Download](/L4D2-Plugins/AntiMapfixes): Removes some map fixes. Which appeared after The Last Stand update
-    * [List of updates](https://github.com/L4D-Community-Team/Last-Stand-Refresh/blob/main/scripts/vscripts/anv_mapfixes.nut)
+    * [The Last Stand update script. Which removes the old bugs of the game](https://github.com/L4D-Community-Team/Last-Stand-Refresh/blob/main/scripts/vscripts/anv_mapfixes.nut)
 	* For a complete list of my deleted map fixes, see inside the plugin source
 ##
 </details>
