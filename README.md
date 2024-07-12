@@ -639,9 +639,12 @@ Fixed game bug "Voting is already started".
 
 <details><summary><b>Кегли</b></summary>
 
-  * [Download](/L4D2-Plugins/Кегли): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/Кегли)
+    * When a Charger grabs a survivor and knocks down another, the sound of pins is played.
+	* If a Charger beats up four survivors, then a "Strike" picture is shown on the players' screen  
+	
+	![picture](/git/Strike.png)
+ ##
 </details>
 
 <details><summary><b>PointInNick</b></summary>
@@ -649,21 +652,26 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/PointInNick): A funny plugin that changes the nickname of players who have a dot in their nickname
     * The "data" folder contains the __NewNames.txt__ file. 
 	* You can enter the names that will be replaced
+ ##
 </details>
 
 <details><summary><b>NoSpray</b></summary>
 
   * [Download](/L4D2-Plugins/NoSpray): The plugin disables the ability to put spray
+ ##
 </details>
 
 <details><summary><b>HighPingKicker</b></summary>
 
   * [Download](/L4D2-Plugins/HighPingKicker): The simplest plugin that kicks players with high ping
+ ##
 </details>
 
 <details><summary><b>FakeAdminPing</b></summary>
 
   * [Download](/L4D2-Plugins/FakeAdminPing): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
+  ![picture](/git/ping.png)
+ ##
 </details>
 
 <details><summary><b>AntiBunny</b></summary>
@@ -683,16 +691,20 @@ Fixed game bug "Voting is already started".
 	Я долбоеб
 	.i.
 	```
+ ##
 </details>
 
 <details><summary><b>Welcome Message</b></summary>
 
   * [Download](/L4D2-Plugins/WelcomeMessage): Sends a message to the player after logging in to the server. Sends it once
+ ##
 </details>
 
 <details><summary><b>Simple Advertisement</b></summary>
 
   * [Download](/L4D2-Plugins/SimpleAdvertisement): A simple plugin that sends messages to the chat
+  ![picture](/git/Adv.png)
+ ##
 </details>
 
 <details><summary><b>Dummy</b></summary>
@@ -700,6 +712,7 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/): Описание
     *
 	*
+ ##
 </details>
 
 # Contact with me
