@@ -409,7 +409,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Tank and Witch on every map</b></summary>
 
-  * [Download](): This plugin will make the game spawn a Tank with a Witch on EVERY map
+  * [Download](/L4D2-Plugins/): This plugin will make the game spawn a Tank with a Witch on EVERY map
     * After the start of the campaign, the plugin randomly selects the spawn position of Tank and Witch.
     * __!boss__ command available. It will show on what percentage of the progress the Tank & Witch will appear.
     * Additionally, the plugin displays a message about Tank encounter.
@@ -417,7 +417,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Set Item Count</b></summary>
 
-  * [Download](): Allows you to set a fixed number of items to appear
+  * [Download](/L4D2-Plugins/SetItemCount): Allows you to set a fixed number of items to appear
 	* Big thanks to AiKi and Crimson_Fox  
   
     * __!itemcount__ - Displays the number of items on the map in chat. Only for admins.  
@@ -437,14 +437,14 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Map Voter</b></summary>
 
-  * [Download](/Map%20Voter): Описание
+  * [Download](/L4D2-Plugins/MapVoter): Описание
     *
 	*
 </details>
 
 <details><summary><b>!w</b></summary>
 
-  * [Download](/!w): The plugin is identical to "L4D2 Startup weapons" by Shine  
+  * [Download](/L4D2-Plugins/!w): The plugin is identical to "L4D2 Startup weapons" by Shine  
 	* __!w__, __!t1__, __!melee__ commands is available.  
 
 	* Also available:  
@@ -454,98 +454,98 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>ConnectAnnounce (with hours)</b></summary>
 
-  * [Download](/ConnectAnnounce): Описание
+  * [Download](/L4D2-Plugins/ConnectAnnounce): Описание
     *
 	*
 </details>
 
 <details><summary><b>ЧОТКО В ЖБАН</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/ЧоткоВЖбан): Описание
     *
 	*
 </details>
 
 <details><summary><b>New Vote System</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/NewVoteSystem): Описание
     *
 	*
 </details>
 
 <details><summary><b>WitchSit</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>GamemodeKeep</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>ScavengeAutoRematch</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>ScavengeHelper</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>SpecListener</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>AllVoteBlocker</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>MoreCoopBots</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>WitchDamageAnnounce</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>VoteBoss</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>TankHP</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>BonusSystem</b></summary>
 
-  * [Download](): A custom bonus system that is used on PEZDOX
+  * [Download](/L4D2-Plugins/): A custom bonus system that is used on PEZDOX
 	* Adds points for
 	* 1. +50 for killing a Witch (per team). Total 50.
 	* 2. +25 for an unused first aid kit. Total 100.
@@ -555,47 +555,47 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>AntiMapfixes</b></summary>
 
-  * [Download](): Removes some map fixes. Which appeared after The Last Stand update
+  * [Download](/L4D2-Plugins/): Removes some map fixes. Which appeared after The Last Stand update
     *
 	*
 </details>
 
 <details><summary><b>Кегли</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
 
 <details><summary><b>PointInNick</b></summary>
 
-  * [Download](): A funny plugin that changes the nickname of players who have a dot in their nickname
+  * [Download](/L4D2-Plugins/): A funny plugin that changes the nickname of players who have a dot in their nickname
     *
 	*
 </details>
 
 <details><summary><b>NoSpray</b></summary>
 
-  * [Download](): The plugin disables the ability to put spray
+  * [Download](/L4D2-Plugins/): The plugin disables the ability to put spray
     *
 	*
 </details>
 
 <details><summary><b>HighPingKicker</b></summary>
 
-  * [Download](): The simplest plugin that kicks players with high ping
+  * [Download](/L4D2-Plugins/): The simplest plugin that kicks players with high ping
     *
 	*
 </details>
 
 <details><summary><b>FakeAdminPing</b></summary>
 
-  * [Download](): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
+  * [Download](/L4D2-Plugins/): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
 </details>
 
 <details><summary><b>AntiBunny</b></summary>
 
-  * [Download](): Убирает ебаного зайчика от HS Top
+  * [Download](/L4D2-Plugins/): Убирает ебаного зайчика от HS Top
   Превращает это:
     (\\__/)
 	(='.'=)
@@ -608,7 +608,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Welcome Message</b></summary>
 
-  * [Download](): Sends a message to the player after logging in to the server. Sends it once
+  * [Download](/L4D2-Plugins/): Sends a message to the player after logging in to the server. Sends it once
 </details>
 
 <details><summary><b>Simple Advertisement</b></summary>
@@ -618,7 +618,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Dummy</b></summary>
 
-  * [Download](): Описание
+  * [Download](/L4D2-Plugins/): Описание
     *
 	*
 </details>
