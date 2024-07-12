@@ -1,0 +1,99 @@
+/*
+	Following colors are supported:
+	{default}
+	{green} is orange
+	{lightgreen} is lightgreen
+	{olive} is green
+*/
+"Phrases"
+{
+	"SelectWeapon"
+	{
+		"#format"  	 "{1:i}"
+		"en"		"Choose weapon {1}/5"
+		"ru"		"Выберите оружие {1}/5"
+	}
+	"SelectGun"
+	{
+		"#format"  	 "{1:i}"
+		"en"		"Choose gun {1}/5"
+		"ru"		"Выберите ствол {1}/5"
+	}
+	"SelectMelee"
+	{
+		"#format"  	 "{1:i}"
+		"en"		"Choose melee {1}/5"
+		"ru"		"Выберите милишку {1}/5"
+	}
+	"Melee"
+	{
+		"en"		"Melee (!melee)"
+		"ru"		"Милишка (!melee)"
+	}
+	"Guns"
+	{
+		"en"		"Tier 1 (!t1)"
+		"ru"		"Тэ один (!t1)"
+	}
+	"Limits"
+	{
+		"en"		"{olive}You have reached a limit of weapon requests: {green}5/5"
+		"ru"		"{olive}Вы достигли лимита на выбор оружия: {green}5/5"
+	}
+	"OnlySurv"
+	{
+		"en"		"{olive}Are you stupid?"
+		"ru"		"{olive}Ты тупой?"
+	}
+	"Knife"
+	{
+		"en"		"Knife (!knife)"
+		"ru"		"Нож (!knife)"
+	}
+	"Fireaxe"
+	{
+		"en"		"Fireaxe (!axe)"
+		"ru"		"Топор (!axe)"
+	}
+	"Katana"
+	{
+		"en"		"Katana (!katana)"
+		"ru"		"Катана (!katana)"
+	}
+	"Machete"
+	{
+		"en"		"Machete (!machete)"
+		"ru"		"Мачете (!machete)"
+	}
+	"Pan"
+	{
+		"en"		"Frying pan (!pan)"
+		"ru"		"Сковородка (!pan)"
+	}
+	
+	"Pump"
+	{
+		"en"		"Pump (!pump)"
+		"ru"		"Помпа (!pump)"
+	}
+	"Chrome"
+	{
+		"en"		"Chrome (!chrome)"
+		"ru"		"Хрома (!chrome)"
+	}
+	"Smg"
+	{
+		"en"		"Smg (!smg)"
+		"ru"		"Узи с глушителем (!smg)"
+	}
+	"Uzi"
+	{
+		"en"		"Uzi (!uzi)"
+		"ru"		"Узи (!uzi)"
+	}
+	"Sniper"
+	{
+		"en"		"Scout (!sniper)"
+		"ru"		"Ноускоперка (!sniper)"
+	}
+}

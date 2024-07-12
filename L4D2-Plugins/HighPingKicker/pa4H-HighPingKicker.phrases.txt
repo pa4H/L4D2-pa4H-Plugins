@@ -1,0 +1,20 @@
+"Phrases"
+{
+	"PingIsHigh"
+	{
+		"#format"		"{1:i},{2:i},{3:i}"
+		"en"			"You ping {green}({1}ms) {default}is too high. {lightgreen}{2}/{3}"
+		"ru"			"Ваш пинг {green}({1}мс) {default}слишком большой. {lightgreen}{2}/{3}"
+	}
+	"KickMsg"
+	{
+		"#format"		"{1:i},{2:i}"
+		"en"			"Your ping is high.\nPing: {1}. Maximum: {2}\nVisit pa4h.ru to contact the admin"
+		"ru"			"Ваш пинг слишком большой.\nПинг: {1}. Максимум: {2}.\nПосетите сайт pa4h.ru, чтобы связаться с администратором"
+	}
+	"shKickMsg"
+	{
+		"en"			"Your ping is high"
+		"ru"			"Ваш пинг слишком большой"
+	}
+}

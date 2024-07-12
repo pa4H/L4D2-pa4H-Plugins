@@ -1,0 +1,30 @@
+// sm_cvar sm_advertisements_interval 45
+// sm_advertisements_reload
+
+"Adv"
+{
+    "1"
+    {
+        "chat"		"{olive}!s {default}— панель со {lightgreen}звуками"
+    }
+    "2"
+    {
+        "chat"		"Получить ссылку на наш {lightgreen}Discord{default}: {olive}!discord"
+    }
+    "3"
+    {
+        "chat"		"Подписывайтесь на нашу группу: {lightgreen}steamcommunity.com/groups/pzdx"
+    }
+	"4"
+    {
+        "chat"		"Добавляй сервер в {lightgreen}избранное{default}! Для получения {lightgreen}IP{default} напиши: {olive}!ip"
+    }
+    "5"
+    {
+        "chat"		"Статистика и баны: {lightgreen}pa4h.ru"
+    }
+    "6"
+    {
+        "chat"		"Получить бесплатный {green}VIP{default} можно на нашем сервере {lightgreen}!discord"
+    }
+}

@@ -1,0 +1,242 @@
+"Phrases"
+{
+	"PREFIX"
+	{
+		"en"		"[PEZDOX]"
+	}
+	"SpecNoVote"
+	{
+		"en"		"{lightgreen}Spectators {green}not allowed to vote!"
+		"ru"		"{lightgreen}Зрителям {green}нельзя голосовать!"
+	}
+	"VoteCooldown"
+	{
+		"#format"	"{1:i}"
+		"en"		"{green}You can't vote so often! Try after {olive}{1} {green}sec."
+		"ru"		"{green}Нельзя голосовать так часто! Попробуйте через {olive}{1} {green}сек."
+	}
+	"KickReason"
+	{
+		"en"		"You have been kicked"
+		"ru"		"Вы были исключены"
+	}
+	"KickSpecReason"
+	{
+		"en"		"You have been kicked by !kickspec vote"
+		"ru"		"Вы были исключены голосованием !kickspec" 
+	}
+
+	"KickSpec"
+	{
+		"#format"  	"{1:s},{2:s}"
+		"en"		"{lightgreen}{2} {default}votes for kick {green}spectators"
+		"ru"		"{lightgreen}{2} {default}голосует за исключение {green}зрителей"
+	}
+	"KickSpecVoteName"
+	{
+		"en"		"Kick spectators?"
+		"ru"		"Выгнать зрителей?"
+	}
+	"KickSpecVotePass"
+	{
+		"en"		"Kicking the spectators"
+		"ru"		"Выгоняем зрителей"
+	}
+
+	"NoKillInfectedBots"
+	{
+		"#format"	"{1:s}"
+		"en"		"{green}{1} {default}Only infected team can use this command"
+		"ru"		"{green}{1} {default}Только команда зараженных может использовать эту команду"
+	}
+	"KillInfectedBots"
+	{
+		"#format"   "{1:s},{2:s}"
+		"en"		"{lightgreen}{2} {default}votes for killing {green}bots"
+		"ru"		"{lightgreen}{2} {default}голосует за убийство {green}ботов"
+	}
+	"KillInfectedBotsVoteName"
+	{
+		"en"		"Kill infected bots?"
+		"ru"		"Убить зараженных ботов?"
+	}
+	"KillInfectedBotsVotePass"
+	{
+		"en"		"Killing bots"
+		"ru"		"Убиваем ботов"
+	}
+	
+	"VoteBossCmd"
+	{
+		"en"		"{olive}!voteboss 10 20 {default}| {green}10% {default}- {lightgreen}Tank {default}spawn loction. {green}20% {default}- {lightgreen}Witch {default}spawn location"
+		"ru"		"{olive}!voteboss 10 20 {default}| {green}10% {default}- место спауна {lightgreen}Танка{default}. {green}20% {default}- место спауна {lightgreen}Ведьмы"
+	}
+	"VoteBossLimits"
+	{
+		"en"		"{green}[VoteBoss] {default}For Tank and Witch maximum {lightgreen}80%"
+		"ru"		"{green}[VoteBoss] {default}Для Танка и Ведьмы максимум {lightgreen}80%"
+	}
+	"VoteBoss"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{lightgreen}{1} {default}vote to change spawn location of\n{lightgreen}Tank {default}to {green}{2}%%"
+		"ru"		"{lightgreen}{1} {default}предлагает изменить места спауна\n{lightgreen}Танка {default}на {green}{2}%%"
+	}
+	"vbWitch"
+	{
+		"#format"	"{1:i}"
+		"en"		"{lightgreen}Witch {default}to {green}{1}%%"
+		"ru"		"{lightgreen}Ведьмы {default}на {green}{1}%%"
+	}
+	"VoteBossVoteName"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"Change spawn locations of \nTank to {1}%%. Witch to {2}%%"
+		"ru"		"Изменить места спауна\nТанка на {1}%%. Ведьмы на {2}%%"
+	}
+	"VoteBossVotePass"
+	{
+		"#format"	"{1:i},{2:i}"
+		"en"		"Tank: [{1}%%]\Witch: [{2}%%]"
+		"ru"		"Танк: [{1}%%]\nВедьма: [{2}%%]"
+	}
+	"VoteBossNotAllowed"
+	{
+		"en"		"{green}[VoteBoss] {default}Spawn percentage can only be changed {green}before leaving the saferoom"
+		"ru"		"{green}[VoteBoss] {default}Процент спауна можно менять только {green}до выхода из убежища"
+	}
+	"VoteBossPercent"
+	{
+		"en"		"{green}[VoteBoss] {default}spawn positions {lightgreen}have been changed!"
+		"ru"		"{green}[VoteBoss] {default}Позиции спауна {lightgreen}изменены!"
+	}
+
+	"ReturnToLobby1"
+	{
+		"#format"	"{1:s}"
+		"en"		"{green}{1} {default}You cant vote for return to {green}lobby"
+		"ru"		"{green}{1} {default}Нельзя выходить в {green}лобби"
+	}
+	"ReturnToLobby2"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"Stupid moron {lightgreen}{2} {default}tried to go to {default}lobby"
+		"ru"		"Тупой дебил {lightgreen}{2} {default}попытался выйти в {default}лобби"
+	}
+
+	"AllTalkON"
+	{
+		"#format"	"{1:s}"
+		"en"		"{green}{1} {default}AllTalk enabled!"
+		"ru"		"{green}{1} {default}Общий чат включен!"
+	}
+	"AllTalkOFF"
+	{
+		"#format"	"{1:s}"
+		"en"		"{green}{1} {default}AllTalk disabled!"
+		"ru"		"{green}{1} {default}Общий чат отключен!"
+	}
+	"ChangeAllTalkOn"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{lightgreen}{2} {default}votes for enable {green}AllTalk"
+		"ru"		"{lightgreen}{2} {default}голосует за включение {green}общего чата"
+	}
+	"ChangeAllTalkOff"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{lightgreen}{2} {default}votes for disable {green}AllTalk"
+		"ru"		"{lightgreen}{2} {default}голосует за выключение {green}общего чата"
+	}
+	"OnChangeAllTalkVoteName"
+	{
+		"en"		"Turn on AllTalk?"
+		"ru"		"Включить общий голосовой чат?"
+	}
+	"OffChangeAllTalkVoteName"
+	{
+		"en"		"Turn off AllTalk?"
+		"ru"		"Выключить общий голосовой чат?"
+	}
+	"OnChangeAllTalkVotePass"
+	{
+		"en"		"Turning on AllTalk!"
+		"ru"		"Включаем общий голосовой чат!"
+	}
+	"OffChangeAllTalkVotePass"
+	{
+		"en"		"Turning off AllTalk!"
+		"ru"		"Выключаем общий голосовой чат!"
+	}
+
+	"ChangeChapter"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{lightgreen}{2} {default}votes for {green}{3} {default}map"
+		"ru"		"{lightgreen}{2} {default}голосует за карту {green}{3}"
+	}
+
+	"ChangeChapterVoteName"
+	{
+		"#format"	"{1:s}"
+		"en"		"Change map to {1}?"
+		"ru"		"Сменить карту на {1}?"
+	}
+	"ChangeChapterVotePass"
+	{
+		"en"		"Loading..."
+		"ru"		"Запускаем..."
+	}
+
+	"Kick"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"en"		"{lightgreen}{2} {default}votes for kick player {green}{3}"
+		"ru"		"{lightgreen}{2} {default}голосует за исключение игрока {green}{3}"
+	}
+	"KickVoteName"
+	{
+		"#format"	"{1:s}"
+		"en"		"Kick player {1}?"
+		"ru"		"Выгнать игрока {1}?"
+	}
+	"KickVotePass"
+	{
+		"en"		"Get out from here!"
+		"ru"		"Пшел отсюда!"
+	}
+
+	"RestartChapter"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{lightgreen}{2} {default}votes for restart {green}chapter"
+		"ru"		"{lightgreen}{2} {default}голосует за {green}перезапуск {default}главы!"
+	}
+	"RestartChapterVoteName"
+	{
+		"en"		"Restart chapter?"
+		"ru"		"Перезапустить главу?"
+	}
+	"RestartChapterVotePass"
+	{
+		"en"		"Restarting..."
+		"ru"		"Перезапуск..."
+	}
+	"DisallowVote"
+	{
+		"#format"	"{1:s}"
+		"en"		"{green}{1} {default}You are disabled from voting.\n{lightgreen}!discord {default}- to atone for guilt."
+		"ru"		"{green}{1} {default}Вам отключена возможность голосовать.\n{lightgreen}!discord {default}- для искупления вины."
+	}
+	"VoteLimit"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{green}{1} {default}You have reached your voting limit of {green}0/{2}"
+		"ru"		"{green}{1} {default}Вы исчерпали лимит голосований {green}0/{2}"
+	}
+	"AllTalkStatus"
+	{
+		"#format"	"{1:s},{2:i}"
+		"en"		"{green}{1} {default}sv_alltalk {lightgreen}{2}"
+	}
+}
