@@ -478,7 +478,7 @@ exec secure.cfg
 
 <details><summary><b>Simple Advertisement</b></summary>
 
-  * [Download](/L4D2-Plugins/Simple Advertisement): A simple plugin that sends messages to the chat
+  * [Download](/L4D2-Plugins/Simple%20Advertisement): A simple plugin that sends messages to the chat
 </details>
 
 <details><summary><b>Dummy</b></summary>
