@@ -409,7 +409,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Tank and Witch on every map</b></summary>
 
-  * [Download](/sourcemod/plugins): This plugin will make the game spawn a Tank with a Witch on EVERY map
+  * [Download](): This plugin will make the game spawn a Tank with a Witch on EVERY map
     * After the start of the campaign, the plugin randomly selects the spawn position of Tank and Witch.
     * __!boss__ command available. It will show on what percentage of the progress the Tank & Witch will appear.
     * Additionally, the plugin displays a message about Tank encounter.
@@ -417,7 +417,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Set Item Count</b></summary>
 
-  * [Download](/sourcemod/plugins): Allows you to set a fixed number of items to appear
+  * [Download](): Allows you to set a fixed number of items to appear
 	* Big thanks to AiKi and Crimson_Fox  
   
     * __!itemcount__ - Displays the number of items on the map in chat. Only for admins.  
@@ -437,15 +437,15 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Map Voter</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](/Map%20Voter): Описание
     *
 	*
 </details>
 
 <details><summary><b>!w</b></summary>
 
-  * [Download](/sourcemod/plugins): The plugin is identical to "L4D2 Startup weapons" by Shine  
-	*__!w__, __!t1__, __!melee__ commands is available.  
+  * [Download](/!w): The plugin is identical to "L4D2 Startup weapons" by Shine  
+	* __!w__, __!t1__, __!melee__ commands is available.  
 
 	* Also available:  
 	* __!knife__, __!fireaxe__, __!axe__, __!katana__, __!machete__, __!pan__, __!fryingpan__.  
@@ -454,98 +454,98 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>ConnectAnnounce (with hours)</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](/ConnectAnnounce): Описание
     *
 	*
 </details>
 
 <details><summary><b>ЧОТКО В ЖБАН</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>New Vote System</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>WitchSit</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>GamemodeKeep</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>ScavengeAutoRematch</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>ScavengeHelper</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>SpecListener</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>AllVoteBlocker</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>MoreCoopBots</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>WitchDamageAnnounce</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>VoteBoss</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>TankHP</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>BonusSystem</b></summary>
 
-  * [Download](/sourcemod/plugins): A custom bonus system that is used on PEZDOX
+  * [Download](): A custom bonus system that is used on PEZDOX
 	* Adds points for
 	* 1. +50 for killing a Witch (per team). Total 50.
 	* 2. +25 for an unused first aid kit. Total 100.
@@ -555,47 +555,47 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>AntiMapfixes</b></summary>
 
-  * [Download](/sourcemod/plugins): Removes some map fixes. Which appeared after The Last Stand update
+  * [Download](): Removes some map fixes. Which appeared after The Last Stand update
     *
 	*
 </details>
 
 <details><summary><b>Кегли</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
 
 <details><summary><b>PointInNick</b></summary>
 
-  * [Download](/sourcemod/plugins): A funny plugin that changes the nickname of players who have a dot in their nickname
+  * [Download](): A funny plugin that changes the nickname of players who have a dot in their nickname
     *
 	*
 </details>
 
 <details><summary><b>NoSpray</b></summary>
 
-  * [Download](/sourcemod/plugins): The plugin disables the ability to put spray
+  * [Download](): The plugin disables the ability to put spray
     *
 	*
 </details>
 
 <details><summary><b>HighPingKicker</b></summary>
 
-  * [Download](/sourcemod/plugins): The simplest plugin that kicks players with high ping
+  * [Download](): The simplest plugin that kicks players with high ping
     *
 	*
 </details>
 
 <details><summary><b>FakeAdminPing</b></summary>
 
-  * [Download](/sourcemod/plugins): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
+  * [Download](): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
 </details>
 
 <details><summary><b>AntiBunny</b></summary>
 
-  * [Download](/sourcemod/plugins): Убирает ебаного зайчика от HS Top
+  * [Download](): Убирает ебаного зайчика от HS Top
   Превращает это:
     (\\__/)
 	(='.'=)
@@ -608,7 +608,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Welcome Message</b></summary>
 
-  * [Download](/sourcemod/plugins): Sends a message to the player after logging in to the server. Sends it once
+  * [Download](): Sends a message to the player after logging in to the server. Sends it once
 </details>
 
 <details><summary><b>Simple Advertisement</b></summary>
@@ -618,7 +618,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Dummy</b></summary>
 
-  * [Download](/sourcemod/plugins): Описание
+  * [Download](): Описание
     *
 	*
 </details>
