@@ -416,6 +416,7 @@ sv_steamgroup "Hui tebe"
     * After the start of the campaign, the plugin randomly selects the spawn position of Tank and Witch.
     * __!boss__ command available. It will show on what percentage of the progress the Tank & Witch will appear.
     * Additionally, the plugin displays a message about Tank encounter.
+ ##
 </details>
 
 <details><summary><b>Set Item Count</b></summary>
@@ -436,6 +437,7 @@ sv_steamgroup "Hui tebe"
     * 4 __pipe bomb__  
     * 1 __incendiary__  
     * 1 __explosive__  
+ ##
 </details>
 
 <details><summary><b>Map Voter</b></summary>
@@ -460,7 +462,7 @@ __sm_cvar timeToChangeMap 10__
 __sm_cvar voteOnRound 1__  
 __sm_cvar canRevote 0__  
 
-##
+ ##
 </details>
 
 <details><summary><b>!w</b></summary>
@@ -471,6 +473,7 @@ __sm_cvar canRevote 0__
 	* Also available:  
 	* __!knife__, __!fireaxe__, __!axe__, __!katana__, __!machete__, __!pan__, __!fryingpan__.  
 	* __!shotgun__, __!pump__, __!chrome__, __!smg__, __!uzi__, __!sniper__, __!scout__, __!sniper__.
+ ##
 </details>
 
 <details><summary><b>ConnectAnnounce (with hours)</b></summary>
@@ -490,6 +493,7 @@ __sm_cvar canRevote 0__
   * Put to server.cfg: `sm_cvar SteamAPI_Key "yourid"`  
   * [REST in Pawn](https://forums.alliedmods.net/showthread.php?t=298024) extension for work with SteamAPI.  
   * [Colors.inc](https://forums.alliedmods.net/showthread.php?t=96831) for plugin compilation.  
+ ##
 </details>
 
 <details><summary><b>ЧОТКО В ЖБАН</b></summary>
@@ -506,12 +510,14 @@ sv_downloadurl "http://site.com/!l4d2"
 sv_allowdownload 0
 sv_allowupload 0
 ```
+ ##
 </details>
 
 <details><summary><b>New Vote System</b></summary>
 
   * [Download](/L4D2-Plugins/NewVoteSystem): The voting system is written from scratch.
     * You definitely need a plugin __l4d2_changelevel.smx__. It comes bundled with the plugin  
+	
 Plugin allows you to:
 1. Create custom votes: sm_customVote <VoteText> <PassVoteText>
 2. Vote for kick a player from another team.
