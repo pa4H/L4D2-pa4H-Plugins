@@ -274,6 +274,7 @@ exec secure.cfg
 </details>
 
 <details><summary><b>Smart bots.cfg</b></summary>
+
 ```ruby
 // Survivors
 sm_cvar sb_allow_shoot_through_survivors "0"
@@ -394,6 +395,7 @@ sm_cvar z_charge_warmup "0.25"
 </details>
 
 <details><summary><b>secure.cfg</b></summary>
+
 ```ruby
 rcon_password "Hui tebe"
 sm_cvar SteamAPI_Key "Hui tebe"
