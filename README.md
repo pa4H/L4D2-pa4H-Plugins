@@ -552,9 +552,9 @@ Fixed game bug "Voting is already started".
 
 <details><summary><b>WitchSit</b></summary>
 
-  * [Download](/L4D2-Plugins/WitchSit): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/WitchSit): When the Witch kills the survivor, she sits down and starts crying.
+    * I recommend using the plugin with this cvar: __sm_cvar sv_force_time_of_day 0__
+ ##
 </details>
 
 <details><summary><b>GamemodeKeep</b></summary>
@@ -562,6 +562,7 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/GamemodeKeep): Описание
     *
 	*
+ ##
 </details>
 
 <details><summary><b>ScavengeAutoRematch</b></summary>
@@ -569,6 +570,7 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/ScavengeAutoRematch): Описание
     *
 	*
+ ##
 </details>
 
 <details><summary><b>ScavengeHelper</b></summary>
@@ -576,6 +578,7 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/ScavengeHelper): Описание
     *
 	*
+ ##
 </details>
 
 <details><summary><b>SpecListener</b></summary>
@@ -583,6 +586,7 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/SpecListener): Описание
     *
 	*
+ ##
 </details>
 
 <details><summary><b>AllVoteBlocker</b></summary>
@@ -590,6 +594,7 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/AllVoteBlocker): Описание
     *
 	*
+ ##
 </details>
 
 <details><summary><b>MoreCoopBots</b></summary>
@@ -597,6 +602,7 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/MoreCoopBots): Описание
     *
 	*
+ ##
 </details>
 
 <details><summary><b>WitchDamageAnnounce</b></summary>
@@ -604,37 +610,41 @@ Fixed game bug "Voting is already started".
   * [Download](/L4D2-Plugins/WitchDamageAnnounce): Описание
     *
 	*
+ ##
 </details>
 
 <details><summary><b>VoteBoss</b></summary>
 
   * [Download](/L4D2-Plugins/NewVoteSystem/VoteBoss): Описание
-    *
-	*
+    * __WARNING!!!__ This plugin is part of the [New Vote System](/L4D2-Plugins/NewVoteSystem) plugin.
+	* Adds the __!voteboss <tank%> <witch%>__ command
+	* Example: !voteboss 10 20, where 10% is the percentage of Tank spawn. 20% is the percentage of the Witch's spawn.
+ ##
 </details>
 
 <details><summary><b>TankHP</b></summary>
 
-  * [Download](/L4D2-Plugins/TankHP): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/TankHP): Just see screenshot :)
+  ![picture](/git/tankHP.png)
 </details>
 
 <details><summary><b>BonusSystem</b></summary>
 
   * [Download](/L4D2-Plugins/BonusSystem): A custom bonus system that is used on PEZDOX
 	* Adds points for
-	* 1. +50 for killing a Witch (per team). Total 50.
-	* 2. +25 for an unused first aid kit. Total 100.
-	* 3. +25 for passing without an encap. Total 100.
-	* 4. +25 for passing without death. Total 100
+	* +50 for killing a Witch (per team). Total 50.
+	* +25 for an unused first aid kit. Total 100.
+	* +25 for passing without an encap. Total 100.
+	* +25 for passing without death. Total 100
+ ##
 </details>
 
 <details><summary><b>AntiMapfixes</b></summary>
 
   * [Download](/L4D2-Plugins/AntiMapfixes): Removes some map fixes. Which appeared after The Last Stand update
-    *
-	*
+    * [List of updates](https://github.com/L4D-Community-Team/Last-Stand-Refresh/blob/main/scripts/vscripts/anv_mapfixes.nut)
+	* For a complete list of my deleted map fixes, see inside the plugin source
+##
 </details>
 
 <details><summary><b>Кегли</b></summary>
