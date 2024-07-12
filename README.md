@@ -338,26 +338,148 @@ exec secure.cfg
 	*
 </details>
 
-Simple ADV
-Welcome MSG
-[pa4H]AntiBunny
-[pa4H]FakeAdminPing
-[pa4H]HighPingKicker
-[pa4H]NoSpray
-[pa4H]PointInNick
-[pa4H]Kegly
-[pa4H]AntiMapfixes
-[pa4H]BonusSystem
-[pa4H]TankHP
-[pa4H]VoteBoss
-[pa4H]WitchDamageAnnounce
-[pa4H]WitchSit
-[pa4H]GamemodeKeep
-[pa4H]ScavengeAutoRematch
-[pa4H]ScavengeHelper
-[pa4H]SpecListener
-[pa4H]AllVoteBlocker
-[pa4H]MoreCoopBots
+<details><summary><b>WitchSit</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>GamemodeKeep</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>ScavengeAutoRematch</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>ScavengeHelper</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>SpecListener</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>AllVoteBlocker</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>MoreCoopBots</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>WitchDamageAnnounce</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>VoteBoss</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>TankHP</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>BonusSystem</b></summary>
+
+  * [Download](/sourcemod/plugins): A custom bonus system that is used on PEZDOX
+	* Adds points for
+	* 1. +50 for killing a Witch (per team). Total 50.
+	* 2. +25 for an unused first aid kit. Total 100.
+	* 3. +25 for passing without an encap. Total 100.
+	* 4. +25 for passing without death. Total 100
+</details>
+
+<details><summary><b>AntiMapfixes</b></summary>
+
+  * [Download](/sourcemod/plugins): Removes some map fixes. Which appeared after The Last Stand update
+    *
+	*
+</details>
+
+<details><summary><b>Kegly</b></summary>
+
+  * [Download](/sourcemod/plugins): Описание
+    *
+	*
+</details>
+
+<details><summary><b>PointInNick</b></summary>
+
+  * [Download](/sourcemod/plugins): A funny plugin that changes the nickname of players who have a dot in their nickname
+    *
+	*
+</details>
+
+<details><summary><b>NoSpray</b></summary>
+
+  * [Download](/sourcemod/plugins): The plugin disables the ability to put spray
+    *
+	*
+</details>
+
+<details><summary><b>HighPingKicker</b></summary>
+
+  * [Download](/sourcemod/plugins): The simplest plugin that kicks players with high ping
+    *
+	*
+</details>
+
+<details><summary><b>FakeAdminPing</b></summary>
+
+  * [Download](/sourcemod/plugins): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
+</details>
+
+<details><summary><b>AntiBunny</b></summary>
+
+  * [Download](/sourcemod/plugins): Убирает ебаного зайчика от HS Top
+  Превращает это:
+    (\\__/)
+	(='.'=)
+	('')_('')
+	Вот в это:
+	.i.
+	Я долбоеб
+	.i.
+</details>
+
+<details><summary><b>Welcome Message</b></summary>
+
+  * [Download](/sourcemod/plugins): Sends a message to the player after logging in to the server. Sends it once
+</details>
+
+<details><summary><b>Simple Advertisement</b></summary>
+
+  * [Download](/sourcemod/plugins): A simple plugin that sends messages to the chat
+</details>
 
 <details><summary><b>Dummy</b></summary>
 
