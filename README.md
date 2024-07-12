@@ -425,7 +425,7 @@ exec secure.cfg
 	*
 </details>
 
-<details><summary><b>Kegly</b></summary>
+<details><summary><b>Кегли</b></summary>
 
   * [Download](/sourcemod/plugins): Описание
     *
@@ -478,7 +478,7 @@ exec secure.cfg
 
 <details><summary><b>Simple Advertisement</b></summary>
 
-  * [Download](/sourcemod/plugins): A simple plugin that sends messages to the chat
+  * [Download](/L4D2-Plugins/Simple Advertisement): A simple plugin that sends messages to the chat
 </details>
 
 <details><summary><b>Dummy</b></summary>
