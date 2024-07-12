@@ -597,25 +597,31 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>AntiBunny</b></summary>
 
-  * [Download](/L4D2-Plugins/): Убирает ебаного зайчика от HS Top
-  Превращает это:
-    (\\__/)
+  * [Download](/L4D2-Plugins/AntiBunny): Убирает ебаного зайчика от HS Top
+	Превращает это:  
+	
+	```
+	(\\__/)
 	(='.'=)
 	('')_('')
+	```  
 	Вот в это:
+	
+	```
 	.i.
 	Я долбоеб
 	.i.
+	```
 </details>
 
 <details><summary><b>Welcome Message</b></summary>
 
-  * [Download](/L4D2-Plugins/): Sends a message to the player after logging in to the server. Sends it once
+  * [Download](/L4D2-Plugins/WelcomeMessage): Sends a message to the player after logging in to the server. Sends it once
 </details>
 
 <details><summary><b>Simple Advertisement</b></summary>
 
-  * [Download](/L4D2-Plugins/Simple%20Advertisement): A simple plugin that sends messages to the chat
+  * [Download](/L4D2-Plugins/SimpleAdvertisement): A simple plugin that sends messages to the chat
 </details>
 
 <details><summary><b>Dummy</b></summary>
