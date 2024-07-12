@@ -2,8 +2,9 @@
 
 > This collection consists of various things that are on my server.  
 > It includes plugins, Stripper:Source configs, server.cfg and much, much more.  
-> Some content is not my own creation. I do not claim authorship of other people's works.  
-> I have made changes to some files and want to share these changes with you.  
+
+> The code of some of my plugins may seem crooked. I could borrow some code snippets from other authors.
+> Most of the plugins are completely my unique work. You can modify and distribute them for free. The main thing is to indicate the authorship (me). Thanks!
 
 # Recommended
 * SourceMod v1.11 Compilator
@@ -463,9 +464,17 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>ЧОТКО В ЖБАН</b></summary>
 
-  * [Download](/L4D2-Plugins/ЧоткоВЖбан): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/ЧоткоВЖбан): При убийстве особого зараженного в голову плагин выводит на экран картинку "чотко в жбан". И воспроизводит звук "В ГОЛОВУ!"
+    * У игрока должны скачиваться файлы: __vjban.vmt__, __vjban.vtf__, __v_jban.mp3__
+## Настройки FastDL:
+
+```
+sv_pure 0
+sv_consistency 0
+sv_downloadurl "http://yoursite.ru/l4d2" // Вот сюда положить папки sound и materials
+sv_allowdownload 1
+sv_allowupload 1
+```
 </details>
 
 <details><summary><b>New Vote System</b></summary>
@@ -477,77 +486,77 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>WitchSit</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/WitchSit): Описание
     *
 	*
 </details>
 
 <details><summary><b>GamemodeKeep</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/GamemodeKeep): Описание
     *
 	*
 </details>
 
 <details><summary><b>ScavengeAutoRematch</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/ScavengeAutoRematch): Описание
     *
 	*
 </details>
 
 <details><summary><b>ScavengeHelper</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/ScavengeHelper): Описание
     *
 	*
 </details>
 
 <details><summary><b>SpecListener</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/SpecListener): Описание
     *
 	*
 </details>
 
 <details><summary><b>AllVoteBlocker</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/AllVoteBlocker): Описание
     *
 	*
 </details>
 
 <details><summary><b>MoreCoopBots</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/MoreCoopBots): Описание
     *
 	*
 </details>
 
 <details><summary><b>WitchDamageAnnounce</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/WitchDamageAnnounce): Описание
     *
 	*
 </details>
 
 <details><summary><b>VoteBoss</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/NewVoteSystem/VoteBoss): Описание
     *
 	*
 </details>
 
 <details><summary><b>TankHP</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/TankHP): Описание
     *
 	*
 </details>
 
 <details><summary><b>BonusSystem</b></summary>
 
-  * [Download](/L4D2-Plugins/): A custom bonus system that is used on PEZDOX
+  * [Download](/L4D2-Plugins/BonusSystem): A custom bonus system that is used on PEZDOX
 	* Adds points for
 	* 1. +50 for killing a Witch (per team). Total 50.
 	* 2. +25 for an unused first aid kit. Total 100.
@@ -557,47 +566,43 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>AntiMapfixes</b></summary>
 
-  * [Download](/L4D2-Plugins/): Removes some map fixes. Which appeared after The Last Stand update
+  * [Download](/L4D2-Plugins/AntiMapfixes): Removes some map fixes. Which appeared after The Last Stand update
     *
 	*
 </details>
 
 <details><summary><b>Кегли</b></summary>
 
-  * [Download](/L4D2-Plugins/): Описание
+  * [Download](/L4D2-Plugins/Кегли): Описание
     *
 	*
 </details>
 
 <details><summary><b>PointInNick</b></summary>
 
-  * [Download](/L4D2-Plugins/): A funny plugin that changes the nickname of players who have a dot in their nickname
-    *
-	*
+  * [Download](/L4D2-Plugins/PointInNick): A funny plugin that changes the nickname of players who have a dot in their nickname
+    * The "data" folder contains the __NewNames.txt__ file. 
+	* You can enter the names that will be replaced
 </details>
 
 <details><summary><b>NoSpray</b></summary>
 
-  * [Download](/L4D2-Plugins/): The plugin disables the ability to put spray
-    *
-	*
+  * [Download](/L4D2-Plugins/NoSpray): The plugin disables the ability to put spray
 </details>
 
 <details><summary><b>HighPingKicker</b></summary>
 
-  * [Download](/L4D2-Plugins/): The simplest plugin that kicks players with high ping
-    *
-	*
+  * [Download](/L4D2-Plugins/HighPingKicker): The simplest plugin that kicks players with high ping
 </details>
 
 <details><summary><b>FakeAdminPing</b></summary>
 
-  * [Download](/L4D2-Plugins/): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
+  * [Download](/L4D2-Plugins/FakeAdminPing): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
 </details>
 
 <details><summary><b>AntiBunny</b></summary>
 
-  * [Download](/L4D2-Plugins/AntiBunny): Убирает ебаного зайчика от HS Top
+  * [Download](/L4D2-Plugins/AntiBunny): Убирает ебаного зайчика от HS Top  
 	Превращает это:  
 	
 	```
