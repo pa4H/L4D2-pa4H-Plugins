@@ -613,6 +613,14 @@ Fixed game bug "Voting is already started".
  ##
 </details>
 
+<details><summary><b>BoomerHordeControl</b></summary>
+
+  * [Download](/L4D2-Plugins/WitchDamageAnnounce): Описание
+    * [Original author](https://github.com/spoon-l4d2/Plugins/blob/master/source/l4d2_boomer_horde_control.sp)
+	*
+ ##
+</details>
+
 <details><summary><b>VoteBoss</b></summary>
 
   * [Download](/L4D2-Plugins/NewVoteSystem/VoteBoss): Описание
