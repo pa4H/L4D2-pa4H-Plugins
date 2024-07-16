@@ -550,6 +550,13 @@ Fixed game bug "Voting is already started".
  ##
 </details>
 
+<details><summary><b>BiledTankDamage</b></summary>
+
+  * [Download](/L4D2-Plugins/BiledTankDamage): Changes the damage from commons when a vomitjar is thrown at a Tank
+    * Сvar: __sm_cvar biledTankDamage 50__
+ ##
+</details>
+
 <details><summary><b>WitchSit</b></summary>
 
   * [Download](/L4D2-Plugins/WitchSit): When the Witch kills the survivor, she sits down and starts crying.
@@ -559,47 +566,39 @@ Fixed game bug "Voting is already started".
 
 <details><summary><b>GamemodeKeep</b></summary>
 
-  * [Download](/L4D2-Plugins/GamemodeKeep): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/GamemodeKeep): The plugin does not allow you to start a server with a game mode other than scavenge
  ##
 </details>
 
 <details><summary><b>ScavengeAutoRematch</b></summary>
 
-  * [Download](/L4D2-Plugins/ScavengeAutoRematch): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/ScavengeAutoRematch): For scavenge mode. The plugin starts changing the map to the same one 9 seconds after the end of the game.
+    * You definitely need a plugin __l4d2_changelevel.smx__.
  ##
 </details>
 
 <details><summary><b>ScavengeHelper</b></summary>
 
-  * [Download](/L4D2-Plugins/ScavengeHelper): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/ScavengeHelper): The first plugin I wrote from the distant 2021. Consists of bad code slightly less than completely.
+	* Shows how much time and how many canstras were filled in scavenge mode
  ##
 </details>
 
 <details><summary><b>SpecListener</b></summary>
 
-  * [Download](/L4D2-Plugins/SpecListener): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/SpecListener): Allows spectator listen others voice and chat
  ##
 </details>
 
 <details><summary><b>AllVoteBlocker</b></summary>
 
-  * [Download](/L4D2-Plugins/AllVoteBlocker): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/AllVoteBlocker): The name speaks for itself
  ##
 </details>
 
 <details><summary><b>MoreCoopBots</b></summary>
 
-  * [Download](/L4D2-Plugins/MoreCoopBots): Описание
+  * [Download](/L4D2-Plugins/MoreCoopBots): Adds many bots to the map. Useful for coop servers with 4+ players.
     *
 	*
  ##
