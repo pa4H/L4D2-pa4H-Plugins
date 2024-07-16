@@ -199,11 +199,13 @@ sm_cvar net_splitrate 2
 sm_cvar net_splitpacket_maxrate 100000
 mat_queue_mode 2
 
-// Infected //
+// DAMAGE //
+sm_cvar biledTankDamage "50"
 sm_cvar z_witch_damage_per_kill_hit 60
 sm_cvar tongue_choke_damage_amount 7
 sm_cvar z_jockey_ride_damage 3
 sm_cvar z_door_pound_damage 160
+sm_cvar survivor_burn_factor_normal "0.35" // 0.2 stock
 //sm_cvar boomer_pz_claw_dmg 10
 //sm_cvar hunter_pz_claw_dmg 10
 //sm_cvar jockey_pz_claw_dmg  10
@@ -242,9 +244,16 @@ sv_allowupload 0
 
 // Commons //
 sm_cvar z_common_limit "20" // Общее население
-sm_cvar z_mob_spawn_max_size "25" // Максимальное сколько прибежит в волне
-sm_cvar z_mob_spawn_min_size "10" // Минимальное сколько прибежит в волне
-sm_cvar z_mega_mob_size "40" // При паническом событии.
+sm_cvar z_mob_spawn_max_size "20" // Максимальное сколько прибежит в волне
+sm_cvar z_mob_spawn_min_size "20" // Минимальное сколько прибежит в волне
+sm_cvar z_mega_mob_size "20" // При паническом событии.
+sm_cvar z_mob_spawn_finale_size "20"
+sm_cvar z_mega_mob_spawn_max_interval "240" 
+sm_cvar z_mega_mob_spawn_min_interval "240" // This command sets the maximum spawn interval, in seconds, between each mega mob spawn.
+BoomHordeSet "1" "5"
+BoomHordeSet "2" "5"
+BoomHordeSet "3" "5"
+BoomHordeSet "4" "5"
 
 // TANK or WITCH//
 sm_cvar sv_force_time_of_day 0 // Сидячая Вича на всех картах
@@ -259,8 +268,7 @@ sm_cvar tank_burn_duration "100"
 
 // Delays //
 sm_cvar decalfrequency 1.0 // Задержка спрея
-sm_cvar sv_vote_kick_ban_duration 1 // Сколько секунд будет длится бан после кика
-
+sm_cvar sv_vote_kick_ban_duration 1 // Сколько секунд будет длиться бан после кика
 sm_cvar sv_pz_endgame_vote_period 20 
 sm_cvar sv_pz_endgame_vote_post_period 20
 sm_cvar scavenge_round_setup_time 15
