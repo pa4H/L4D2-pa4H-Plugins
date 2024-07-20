@@ -456,6 +456,8 @@ sv_steamgroup "Hui tebe"
 	* Displays the number of votes next to the card name.  
 	* It is possible to choose at what hour the voting will start (0 or 1)  
 	* It is possible to re-vote 1 time
+	
+	![picture](/git/mapvoter.png)
 
 ## Available commands:
 __!revote__  
@@ -606,31 +608,32 @@ Fixed game bug "Voting is already started".
 
 <details><summary><b>MoreCoopBots</b></summary>
 
-  * [Download](/L4D2-Plugins/MoreCoopBots): Adds many bots to the map. Useful for coop servers with 4+ players.
-    *
-	*
+  * [Download](/L4D2-Plugins/MoreCoopBots): Adds many bots to the map. Useful for coop servers with 4+ players
  ##
 </details>
 
 <details><summary><b>WitchDamageAnnounce</b></summary>
 
-  * [Download](/L4D2-Plugins/WitchDamageAnnounce): Описание
-    *
-	*
+  * [Download](/L4D2-Plugins/WitchDamageAnnounce): Just see screenshot
+    ![picture](/git/witch.png)
  ##
 </details>
 
 <details><summary><b>BoomerHordeControl</b></summary>
 
-  * [Download](/L4D2-Plugins/WitchDamageAnnounce): Описание
+  * [Download](/L4D2-Plugins/BoomerHordeControl): Fixed number of zombies that come running when Boomer vomit
     * [Original author](https://github.com/spoon-l4d2/Plugins/blob/master/source/l4d2_boomer_horde_control.sp)
-	*
+	* Cvar: __BoomHordeSet__ "number of vomited survivors" "number of incoming zombies"
+	* BoomHordeSet "1" "5"
+	* BoomHordeSet "2" "5"
+	* BoomHordeSet "3" "5"
+	* BoomHordeSet "4" "5"
  ##
 </details>
 
 <details><summary><b>VoteBoss</b></summary>
 
-  * [Download](/L4D2-Plugins/NewVoteSystem/VoteBoss): Описание
+  * [Download](/L4D2-Plugins/NewVoteSystem/VoteBoss):
     * __WARNING!!!__ This plugin is part of the [New Vote System](/L4D2-Plugins/NewVoteSystem) plugin.
 	* Adds the __!voteboss <tank%> <witch%>__ command
 	* Example: __!voteboss 10 20__, where 10% is the percentage of Tank spawn. 20% is the percentage of the Witch's spawn.

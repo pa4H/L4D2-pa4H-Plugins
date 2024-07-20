@@ -28,12 +28,15 @@ stock Action debb(int client, int args) // DEBUG
 	return Plugin_Handled;
 }
 
-public OnClientPostAdminCheck(client)
+public OnClientPutInServer(int client)
 {
+	if (IsFakeClient(client)) { return; }
+	PrintToServer("notfake");
 	char mode[32];
 	GetConVarString(hMode, mode, sizeof(mode));
 	if (StrEqual("coop", mode)) {
-		CreateTimer(0.1, AddBotTimer); // Если coop, то создаём больше ботов
+		PrintToServer("coop");
+		CreateTimer(5.0, AddBotTimer); // Если coop, то создаём больше ботов
 	}
 }
 
