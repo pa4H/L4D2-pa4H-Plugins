@@ -614,8 +614,8 @@ Fixed game bug "Voting is already started".
 
 <details><summary><b>WitchDamageAnnounce</b></summary>
 
-  * [Download](/L4D2-Plugins/WitchDamageAnnounce): Just see screenshot
-    ![picture](/git/witch.png)
+  * [Download](/L4D2-Plugins/WitchDamageAnnounce): Just see screenshot  
+  ![picture](/git/witch.png)
  ##
 </details>
 
