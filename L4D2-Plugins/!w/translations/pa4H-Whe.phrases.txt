@@ -1,0 +1,156 @@
+/*
+	Following colors are supported:
+	{default}
+	{green} is orange
+	{lightgreen} is lightgreen
+	{olive} is green
+*/
+"Phrases"
+{
+	"SelectWeapon"
+	{
+		"#format"  	 "{1:i}"
+		"en"		"Choose weapon {1}/4"
+		"ru"		"Выбери оружие {1}/4"
+	}
+	"SelectGun"
+	{
+		"#format"  	 "{1:i}"
+		"en"		"Choose gun {1}/4"
+		"ru"		"Выбери ствол {1}/4"
+	}
+	"SelectMelee"
+	{
+		"#format"  	 "{1:i}"
+		"en"		"Choose melee {1}/4"
+		"ru"		"Выбери милишку {1}/4"
+	}
+	"Melee"
+	{
+		"en"		"Melee (!melee)"
+		"ru"		"Милишка (!melee)"
+	}
+	"Guns"
+	{
+		"en"		"Tier 1 (!t1)"
+		"ru"		"Тэ один (!t1)"
+	}
+	"Guns2"
+	{
+		"en"		"Tier 2 (!t2)"
+		"ru"		"Тэ два (!t2)"
+	}
+	"Laser3"
+	{
+		"en"		"Laser (!laser)"
+		"ru"		"Лазер (!laser)"
+	}
+	"Limits"
+	{
+		"en"		"{olive}You have reached a limit of weapon requests: {green}4/4"
+		"ru"		"{olive}Вы достигли лимита на выбор оружия: {green}4/4"
+	}
+	"OnlySurv"
+	{
+		"en"		"{olive}Are you stupid?"
+		"ru"		"{olive}Ты тупой?"
+	}
+	"Knife"
+	{
+		"en"		"Knife (!knife)"
+		"ru"		"Нож (!knife)"
+	}
+	"Fireaxe"
+	{
+		"en"		"Fireaxe (!axe)"
+		"ru"		"Топор (!axe)"
+	}
+	"Katana"
+	{
+		"en"		"Katana (!katana)"
+		"ru"		"Катана (!katana)"
+	}
+	"Machete"
+	{
+		"en"		"Machete (!machete)"
+		"ru"		"Мачете (!machete)"
+	}
+	"Pan"
+	{
+		"en"		"Frying pan (!pan)"
+		"ru"		"Сковородка (!pan)"
+	}
+	
+	"Pump"
+	{
+		"en"		"Pump (!pump)"
+		"ru"		"Помпа (!pump)"
+	}
+	"Chrome"
+	{
+		"en"		"Chrome (!chrome)"
+		"ru"		"Хрома (!chrome)"
+	}
+	"Smg"
+	{
+		"en"		"Smg (!smg)"
+		"ru"		"Узи с глушителем (!smg)"
+	}
+	"Uzi"
+	{
+		"en"		"Uzi (!uzi)"
+		"ru"		"Узи (!uzi)"
+	}
+	"Sniper"
+	{
+		"en"		"Scout (!sniper)"
+		"ru"		"Ноускоперка (!sniper)"
+	}
+	"Mp5"
+	{
+		"en"		"MP5 (!mp5)"
+	}
+	"Sg552"
+	{
+		"en"		"SG522 (!sg)"
+	}
+	
+	// Stinky T2
+	"Hunter"
+	{
+		"en"		"Hunter sniper (!hunter)"
+		"ru"		"Охотничья снайперка (!hunter)"
+	}
+	"Military"
+	{
+		"en"		"Military sniper (!military)"
+		"ru"		"Военная снайперка (!military)"
+	}
+	"Autoshotgun"
+	{
+		"en"		"Auto shotgun (!autoshotgun)"
+		"ru"		"Авто дробовик (!autoshotgun)"
+	}
+	"Spas"
+	{
+		"en"		"SPAS-12 (!spas)"
+	}
+	"M4"
+	{
+		"en"		"M4A1 (!m4)"
+	}
+	"Scar"
+	{
+		"en"		"SCAR (!scar)"
+	}
+	"AK47"
+	{
+		"en"		"AK-47 (!ak47)"
+	}
+	
+	"GunRestrict"
+	{
+		"en"		"{olive}Only one player can take {green}this weapon"
+		"ru"		"{olive}Только один игрок может брать {green}это оружие"
+	}
+}
