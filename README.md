@@ -420,7 +420,7 @@ sv_steamgroup "Hui tebe"
 
 <details><summary><b>Tank and Witch on every map</b></summary>
 
-  * [Download](/L4D2-Plugins/): This plugin will make the game spawn a Tank with a Witch on EVERY map
+  * [Download](/L4D2-Plugins/TankandWitchoneverymap): This plugin will make the game spawn a Tank with a Witch on EVERY map
     * After the start of the campaign, the plugin randomly selects the spawn position of Tank and Witch.
     * __!boss__ command available. It will show on what percentage of the progress the Tank & Witch will appear.
     * Additionally, the plugin displays a message about Tank encounter.
@@ -486,7 +486,7 @@ __sm_cvar canRevote 0__
  ##
 </details>
 
-<details><summary><b>ConnectAnnounce (with hours)</b></summary>
+<details><summary><b>Connect Announce (with hours)</b></summary>
 
   * [Download](/L4D2-Plugins/ConnectAnnounce): A VERY simple plugin showing the connection and disconnection message.
     * Country, city, disconnect reason and also shows the __hours__ spent in L4D2.  
@@ -560,66 +560,66 @@ Fixed game bug "Voting is already started".
  ##
 </details>
 
-<details><summary><b>BiledTankDamage</b></summary>
+<details><summary><b>Biled Tank Damage</b></summary>
 
   * [Download](/L4D2-Plugins/BiledTankDamage): Changes the damage from commons when a vomitjar is thrown at a Tank
     * Сvar: __sm_cvar biledTankDamage 50__
  ##
 </details>
 
-<details><summary><b>WitchSit</b></summary>
+<details><summary><b>Witch Sit</b></summary>
 
   * [Download](/L4D2-Plugins/WitchSit): When the Witch kills the survivor, she sits down and starts crying.
     * I recommend using the plugin with this cvar: __sm_cvar sv_force_time_of_day 0__
  ##
 </details>
 
-<details><summary><b>GamemodeKeep</b></summary>
+<details><summary><b>Gamemode Keep</b></summary>
 
   * [Download](/L4D2-Plugins/GamemodeKeep): The plugin does not allow you to start a server with a game mode other than scavenge
  ##
 </details>
 
-<details><summary><b>ScavengeAutoRematch</b></summary>
+<details><summary><b>Scavenge Auto Rematch</b></summary>
 
   * [Download](/L4D2-Plugins/ScavengeAutoRematch): For scavenge mode. The plugin starts changing the map to the same one 9 seconds after the end of the game.
     * You definitely need a plugin __l4d2_changelevel.smx__.
  ##
 </details>
 
-<details><summary><b>ScavengeHelper</b></summary>
+<details><summary><b>Scavenge Helper</b></summary>
 
   * [Download](/L4D2-Plugins/ScavengeHelper): The first plugin I wrote from the distant 2021. Consists of bad code slightly less than completely.
 	* Shows how much time and how many canstras were filled in scavenge mode
  ##
 </details>
 
-<details><summary><b>SpecListener</b></summary>
+<details><summary><b>Spec Listener</b></summary>
 
   * [Download](/L4D2-Plugins/SpecListener): Allows spectator listen others voice and chat
  ##
 </details>
 
-<details><summary><b>AllVoteBlocker</b></summary>
+<details><summary><b>All Vote Blocker</b></summary>
 
   * [Download](/L4D2-Plugins/AllVoteBlocker): The name speaks for itself
  ##
 </details>
 
-<details><summary><b>MoreCoopBots</b></summary>
+<details><summary><b>More Coop Bots</b></summary>
 
   * [Download](/L4D2-Plugins/MoreCoopBots): Adds many bots to the map. Useful for coop servers with 4+ players
  ##
 </details>
 
-<details><summary><b>WitchDamageAnnounce</b></summary>
+<details><summary><b>Witch Damage Announce</b></summary>
 
   * [Download](/L4D2-Plugins/WitchDamageAnnounce): Just see screenshot  
   ![picture](/git/witch.png)
  ##
 </details>
 
-<details><summary><b>BoomerHordeControl</b></summary>
+<details><summary><b>Boomer Horde Control</b></summary>
 
   * [Download](/L4D2-Plugins/BoomerHordeControl): Fixed number of zombies that come running when Boomer vomit
     * [Original author](https://github.com/spoon-l4d2/Plugins/blob/master/source/l4d2_boomer_horde_control.sp)
@@ -631,7 +631,7 @@ Fixed game bug "Voting is already started".
  ##
 </details>
 
-<details><summary><b>VoteBoss</b></summary>
+<details><summary><b>Vote Boss</b></summary>
 
   * [Download](/L4D2-Plugins/NewVoteSystem/VoteBoss):
     * __WARNING!!!__ This plugin is part of the [New Vote System](/L4D2-Plugins/NewVoteSystem) plugin.
@@ -646,7 +646,7 @@ Fixed game bug "Voting is already started".
   ![picture](/git/tankHP.png)
 </details>
 
-<details><summary><b>BonusSystem</b></summary>
+<details><summary><b>Bonus System</b></summary>
 
   * [Download](/L4D2-Plugins/BonusSystem): A custom bonus system that is used on PEZDOX
 	* Adds points for
@@ -657,7 +657,7 @@ Fixed game bug "Voting is already started".
  ##
 </details>
 
-<details><summary><b>AntiMapfixes</b></summary>
+<details><summary><b>Anti Map fixes</b></summary>
 
   * [Download](/L4D2-Plugins/AntiMapfixes): Removes some map fixes. Which appeared after The Last Stand update
     * [The Last Stand update script. Which removes the old bugs of the game](https://github.com/L4D-Community-Team/Last-Stand-Refresh/blob/main/scripts/vscripts/anv_mapfixes.nut)
@@ -675,7 +675,7 @@ Fixed game bug "Voting is already started".
  ##
 </details>
 
-<details><summary><b>PointInNick</b></summary>
+<details><summary><b>Point In Nick</b></summary>
 
   * [Download](/L4D2-Plugins/PointInNick): A funny plugin that changes the nickname of players who have a dot in their nickname
     * The "data" folder contains the __NewNames.txt__ file. 
@@ -689,20 +689,20 @@ Fixed game bug "Voting is already started".
  ##
 </details>
 
-<details><summary><b>HighPingKicker</b></summary>
+<details><summary><b>High Ping Kicker</b></summary>
 
   * [Download](/L4D2-Plugins/HighPingKicker): The simplest plugin that kicks players with high ping
  ##
 </details>
 
-<details><summary><b>FakeAdminPing</b></summary>
+<details><summary><b>Fake Admin Ping</b></summary>
 
   * [Download](/L4D2-Plugins/FakeAdminPing): Changes the ping number of admins in the TAB. Thereby masking it. The ping itself doesn't actually change.
   ![picture](/git/ping.png)
  ##
 </details>
 
-<details><summary><b>AntiBunny</b></summary>
+<details><summary><b>Anti Bunny</b></summary>
 
   * [Download](/L4D2-Plugins/AntiBunny): Убирает ебаного зайчика от HS Top  
 	Превращает это:  
