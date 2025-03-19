@@ -27,8 +27,8 @@ public Plugin myinfo =  {
 	name = "MapVoter", 
 	author = "pa4H", 
 	description = "", 
-	version = "2.1", 
-	url = "vk.com/pa4h1337"
+	version = "2.2", 
+	url = "https://t.me/pa4H232"
 };
 
 char mapSequence[][32] =  {  // Последовательность карт
@@ -100,12 +100,14 @@ public OnClientPostAdminCheck(client)
 	if (GetConVarInt(halfOfRound) != 0) { return; }
 	if (IsValidClient(client)) {
 		loadedPlayers++
+		//PrintToServer("loadedPlayers: %i", loadedPlayers);
 		//LogToFileEx(DropLP, "Cliconnect: %i online: %i", loadedPlayers, GetOnlineClients());
 	}
 	
 	if (loadedPlayers == GetOnlineClients() && L4D_IsMissionFinalMap() && isFirstRound()) // Если играем последную карту и идёт первая половина карты
 	{
 		StartVote();
+		//PrintToServer("mapvote Start");
 	}
 }
 
@@ -384,6 +386,7 @@ public void OnMapEnd() // Требуется, поскольку принуди�
 {
 	if (voteTimer != INVALID_HANDLE) { voteTimer = null; }
 	loadedPlayers = 0;
+	winner = 0;
 	canPlayersRevote = true;
 }
 
