@@ -1,3 +1,5 @@
+#define maxLimits 2
+
 #include <sourcemod>
 #include <colors>
 #include <sdkhooks>
@@ -9,9 +11,9 @@ public Plugin myinfo =
 {
 	name = "Whe", 
 	author = "pa4H", 
-	description = "AllWeapons", 
+	description = "", 
 	version = "1.0", 
-	url = "vk.com/pa4h1337"
+	url = "https://t.me/pa4H232"
 }
 
 public OnPluginStart()
@@ -20,24 +22,29 @@ public OnPluginStart()
 	HookEvent("scavenge_round_start", resetLimits, EventHookMode_Pre);
 	HookEvent("round_end", resetLimits, EventHookMode_Pre);
 	
+	//RegAdminCmd("sm_test", debb, ADMFLAG_ROOT);
+	
 	RegConsoleCmd("sm_w", showMenu);
 	RegConsoleCmd("sm_melee", showMeleeMenu);
 	RegConsoleCmd("sm_t1", showT1Menu);
 	RegConsoleCmd("sm_t2", showT2Menu);
+	RegConsoleCmd("sm_laser", setLaser);
 	
 	// T1
 	RegConsoleCmd("sm_shotgun", gChrome);
-	RegConsoleCmd("sm_pump", gPump);
 	RegConsoleCmd("sm_chrome", gChrome);
+	RegConsoleCmd("sm_pump", gPump);
 	RegConsoleCmd("sm_smg", gSmg);
 	RegConsoleCmd("sm_smgs", gSmg);
 	RegConsoleCmd("sm_uzi", gUzi);
 	RegConsoleCmd("sm_sniper", gScout);
 	RegConsoleCmd("sm_scout", gScout);
-	RegConsoleCmd("sm_awp", giveAWP);
+	RegConsoleCmd("sm_awp", giveAWP); 
+	RegConsoleCmd("sm_mp5", gMp5);
+	RegConsoleCmd("sm_sg", gSg);
 	
 	// T2
-	RegConsoleCmd("sm_magnum", giveMagnum);
+	RegConsoleCmd("sm_magnum", giveMagnum); 
 	RegConsoleCmd("sm_hunter", gHunter);
 	RegConsoleCmd("sm_military", gMilitary);
 	RegConsoleCmd("sm_mil", gMilitary);
@@ -58,6 +65,39 @@ public OnPluginStart()
 	RegConsoleCmd("sm_fryingpan", gPan);
 	
 	LoadTranslations("pa4H-Whe.phrases");
+}
+
+Action debb(int client, int args)
+{
+	return Plugin_Handled;
+}
+
+// Laser
+
+Action setLaser(int client, int args) // Only for VIP
+{
+		if (!IsPlayerAlive(client)) { return Plugin_Handled; }
+		if (GetClientTeam(client) != 2) { CPrintToChat(client, "%t", "OnlySurv"); return Plugin_Handled; }
+		
+		if (limits[client] > maxLimits - 1) { CPrintToChat(client, "%t", "Limits"); return Plugin_Handled; } else { limits[client]++; }
+		CPrintToChat(client, "%t", "PrintLimits", limits[client], maxLimits);
+		
+		int iWeapon = GetPlayerWeaponSlot(client, 0); // Get primary weapon
+		if (iWeapon > 0 && IsValidEdict(iWeapon) && IsValidEntity(iWeapon))
+		{
+			char netclass[128];
+			GetEntityNetClass(iWeapon, netclass, sizeof(netclass));
+			if (FindSendPropInfo(netclass, "m_upgradeBitVec") < 1)
+			{
+				return Plugin_Handled; // This weapon does not support laser upgrade
+			}
+			int iLaser = GetEntProp(iWeapon, Prop_Send, "m_upgradeBitVec");
+			SetEntProp(iWeapon, Prop_Send, "m_upgradeBitVec", iLaser ^ (1 << 2));
+			
+			PrecacheSound("player/laser_on.wav");
+			EmitSoundToClient(client, "player/laser_on.wav");
+		}
+		return Plugin_Handled;
 }
 
 // T1
@@ -87,9 +127,19 @@ Action gScout(int client, int args)
 	giveItem(client, "sniper_scout");
 	return Plugin_Handled;
 }
-Action giveAWP(int client, int args)
+Action giveAWP(int client, int args) // Only for VIP
 {
 	giveItem(client, "sniper_awp");
+	return Plugin_Handled;
+}
+Action gMp5(int client, int args)
+{
+	giveItem(client, "smg_mp5");
+	return Plugin_Handled;
+}
+Action gSg(int client, int args)
+{
+	giveItem(client, "rifle_sg552");
 	return Plugin_Handled;
 }
 
@@ -177,15 +227,10 @@ Action showT1Menu(int client, int args)
 	t1Menu(client);
 	return Plugin_Handled;
 }
-Action showT2Menu(int client, int args)
-{
-	t2Menu(client);
-	return Plugin_Handled;
-}
 
 void meleeMenu(int client)
 {
-	char buf[32];
+	char buf[64];
 	Menu mel = new Menu(GunsMenu_handler);
 	mel.SetTitle("%T", "SelectMelee", client, limits[client]);
 	FormatEx(buf, sizeof(buf), "%T", "Knife", client);
@@ -204,22 +249,23 @@ void meleeMenu(int client)
 
 void t1Menu(int client)
 {
-	char buf[32];
+	char buf[64];
 	Menu gun = new Menu(GunsMenu_handler);
 	gun.SetTitle("%T", "SelectGun", client, limits[client]);
 	FormatEx(buf, sizeof(buf), "%T", "Pump", client);
 	gun.AddItem("pumpshotgun", buf);
 	FormatEx(buf, sizeof(buf), "%T", "Chrome", client);
 	gun.AddItem("shotgun_chrome", buf);
-	FormatEx(buf, sizeof(buf), "%T", "Smg", client);
-	gun.AddItem("smg_silenced", buf);
 	FormatEx(buf, sizeof(buf), "%T", "Uzi", client);
 	gun.AddItem("smg", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Smg", client);
+	gun.AddItem("smg_silenced", buf);
 	FormatEx(buf, sizeof(buf), "%T", "Sniper", client);
 	gun.AddItem("sniper_scout", buf);
 	
 	gun.Display(client, 15);
 }
+
 void t2Menu(int client)
 {
 	char buf[64];
@@ -255,6 +301,8 @@ Action showMenu(int client, int args)
 	menu.AddItem("gun1", wName);
 	FormatEx(wName, sizeof(wName), "%T", "Guns2", client);
 	menu.AddItem("gun2", wName);
+	FormatEx(wName, sizeof(wName), "%T", "Laser3", client);
+	menu.AddItem("las", wName);
 	
 	menu.Display(client, 15);
 	return Plugin_Handled;
@@ -270,13 +318,17 @@ public Menu_VotePoll(Menu menu, MenuAction action, int client, int param2) // О
 		{
 			meleeMenu(client);
 		}
-		else if (StrEqual(arg, "gun1") == true)
+		else if (StrEqual(arg, "gun1"))
 		{
 			t1Menu(client);
 		}
-		else if (StrEqual(arg, "gun2") == true)
+		else if (StrEqual(arg, "gun2"))
 		{
-			showT2Menu(client, 0);
+			t2Menu(client);
+		}
+		else if (StrEqual(arg, "las"))
+		{
+			setLaser(client, 0);
 		}
 	}
 }
@@ -293,9 +345,11 @@ public GunsMenu_handler(Menu menu, MenuAction action, int client, int param2)
 
 void giveItem(int client, char[] args)
 {
-	if (!IsPlayerAlive(client)) { return; }
-	if (GetClientTeam(client) != 2) { CPrintToChat(client, "%t", "OnlySurv"); return; }
-	if (limits[client] > 4) { CPrintToChat(client, "%t", "Limits"); return; } else { limits[client]++; }
+	if (!IsPlayerAlive(client)) { return; } // Если игрок мёртв
+	if (GetClientTeam(client) != 2) { CPrintToChat(client, "%t", "OnlySurv"); return; } // Если игрок за заразу
+	
+	if (limits[client] > maxLimits - 1) { CPrintToChat(client, "%t", "Limits"); return; } else { limits[client]++; } // Проверка лимитов
+	CPrintToChat(client, "%t", "PrintLimits", limits[client], maxLimits); // Печатаем лимиты
 	
 	int flagsgive = GetCommandFlags("give");
 	SetCommandFlags("give", flagsgive & ~FCVAR_CHEAT);
@@ -305,10 +359,7 @@ void giveItem(int client, char[] args)
 
 public resetLimits(Event hEvent, const char[] sEvName, bool bDontBroadcast)
 {
-	for (int i = 1; i <= MAXPLAYERS; i++)
-	{
-		limits[i] = 0;
-	}
+	for (int i = 1; i <= MAXPLAYERS; i++) { limits[i] = 0; }
 }
 
 stock bool IsValidClient(client)
