@@ -1,0 +1,11 @@
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\9VIP
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\4SrvPlugins
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\2chat\[pa4H]WelcomeMSG.smx
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\5VisualSound\[pa4H]UltraSound.smx
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\6Libs\lilac.smx
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\1sm_cmd\[pa4H]!w&Restrict.smx
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\1sm_cmd\[pa4H]TeamSwitcher.smx
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\1sm_cmd\spitterBoss.smx
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\2chat\[pa4H]MVP.smx
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\3Gameplay
+C:\Users\Srv\Desktop\WindowsGSM\servers\6\serverfiles\left4dead2\addons\sourcemod\plugins\6Libs\VScriptReplacer.smx
