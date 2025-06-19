@@ -8,21 +8,21 @@
 	}
 	"SelectWeapon"
 	{
-		"#format"  	"{1:i}"
-		"en"		"Choose weapon {1}/4"
-		"ru"		"Выбери оружие {1}/4"
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Choose weapon {1}/{2}"
+		"ru"		"Выбери оружие {1}/{2}"
 	}
 	"SelectGun"
 	{
-		"#format"  	 "{1:i}"
-		"en"		"Choose gun {1}/4"
-		"ru"		"Выбери ствол {1}/4"
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Choose gun {1}/{2}"
+		"ru"		"Выбери ствол {1}/{2}"
 	}
 	"SelectMelee"
 	{
-		"#format"  	 "{1:i}"
-		"en"		"Choose melee {1}/4"
-		"ru"		"Выбери милишку {1}/4"
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Choose melee {1}/{2}"
+		"ru"		"Выбери милишку {1}/{2}"
 	}
 	"Melee"
 	{
@@ -39,15 +39,16 @@
 		"en"		"Tier 2 (!t2)"
 		"ru"		"Тэ два (!t2)"
 	}
-	"Laser3"
+	"Laser"
 	{
 		"en"		"Laser (!laser)"
 		"ru"		"Лазер (!laser)"
 	}
 	"Limits"
 	{
-		"en"		"{olive}You have reached a limit of equipment requests: {green}4/4"
-		"ru"		"{olive}Вы достигли лимита на выбор снаряжения: {green}4/4"
+		"#format"  	"{1:i},{2:i}"
+		"en"		"{olive}You have reached a limit of equipment requests: {green}{1}/{2}"
+		"ru"		"{olive}Вы достигли лимита на выбор снаряжения: {green}{1}/{2}"
 	}
 	"OnlySurv"
 	{
@@ -79,6 +80,52 @@
 		"en"		"Frying pan (!pan)"
 		"ru"		"Сковородка (!pan)"
 	}
+
+    "Bat"
+    {
+        "en"        "Baseball Bat (!bat)"
+        "ru"        "Бита (!bat)"
+    }
+    "Cricket"
+    {
+        "en"        "Cricket Bat (!cricket)"
+        "ru"        "Крикетная бита (!cricket)"
+    }
+    "Crowbar"
+    {
+        "en"        "Crowbar (!crowbar)"
+        "ru"        "Монтировка (!crowbar)"
+    }
+    "Chainsaw"
+    {
+        "en"        "Chainsaw (!chainsaw)"
+        "ru"        "Бензопила (!chainsaw)"
+    }
+    "Golfclub"
+    {
+        "en"        "Golf Club (!golf)"
+        "ru"        "Шлюшка (!golf)"
+    }
+    "Guitar"
+    {
+        "en"        "Electric Guitar (!guitar)"
+        "ru"        "Гитара (!guitar)"
+    }
+    "Tonfa"
+    {
+        "en"        "Tonfa (!tonfa)"
+        "ru"        "Тонфа (!tonfa)"
+    }
+    "Shovel"
+    {
+        "en"        "Shovel (!shovel)"
+        "ru"        "Лопата (!shovel)"
+    }
+    "Fork"
+    {
+        "en"        "Pitchfork (!fork)"
+        "ru"        "Вилы (!fork)"
+    }
 	
 	"Pump"
 	{
@@ -104,6 +151,10 @@
 	{
 		"en"		"Scout (!sniper)"
 		"ru"		"Ноускоперка (!sniper)"
+	}
+	"AWP"
+	{
+		"en"		"AWP (!awp)"
 	}
 	"Mp5"
 	{

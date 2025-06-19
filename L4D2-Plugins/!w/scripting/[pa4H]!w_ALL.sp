@@ -22,8 +22,6 @@ public OnPluginStart()
 	HookEvent("scavenge_round_start", resetLimits, EventHookMode_Pre);
 	HookEvent("round_end", resetLimits, EventHookMode_Pre);
 	
-	//RegAdminCmd("sm_test", debb, ADMFLAG_ROOT);
-	
 	RegConsoleCmd("sm_w", showMenu);
 	RegConsoleCmd("sm_melee", showMeleeMenu);
 	RegConsoleCmd("sm_t1", showT1Menu);
@@ -39,12 +37,12 @@ public OnPluginStart()
 	RegConsoleCmd("sm_uzi", gUzi);
 	RegConsoleCmd("sm_sniper", gScout);
 	RegConsoleCmd("sm_scout", gScout);
-	RegConsoleCmd("sm_awp", giveAWP); 
+	RegConsoleCmd("sm_awp", giveAWP);
 	RegConsoleCmd("sm_mp5", gMp5);
 	RegConsoleCmd("sm_sg", gSg);
 	
 	// T2
-	RegConsoleCmd("sm_magnum", giveMagnum); 
+	RegConsoleCmd("sm_magnum", giveMagnum);
 	RegConsoleCmd("sm_hunter", gHunter);
 	RegConsoleCmd("sm_military", gMilitary);
 	RegConsoleCmd("sm_mil", gMilitary);
@@ -64,40 +62,44 @@ public OnPluginStart()
 	RegConsoleCmd("sm_pan", gPan);
 	RegConsoleCmd("sm_fryingpan", gPan);
 	
-	LoadTranslations("pa4H-Whe.phrases");
-}
-
-Action debb(int client, int args)
-{
-	return Plugin_Handled;
+	RegConsoleCmd("sm_baseballbat", gBat); RegConsoleCmd("sm_baseball", gBat); RegConsoleCmd("sm_bat", gBat);
+	RegConsoleCmd("sm_cricketbat", gCricket); RegConsoleCmd("sm_cricket", gCricket);
+	RegConsoleCmd("sm_crowbar", gCrowbar);
+	RegConsoleCmd("sm_chainsaw", gChainsaw);
+	RegConsoleCmd("sm_golfclub", gGolfclub); RegConsoleCmd("sm_club", gGolfclub); RegConsoleCmd("sm_golf", gGolfclub);
+	RegConsoleCmd("sm_electricguitar", gGuitar); RegConsoleCmd("sm_guitar", gGuitar);
+	RegConsoleCmd("sm_tonfa", gTonfa);
+	RegConsoleCmd("sm_shovel", gShovel);
+	RegConsoleCmd("sm_pitchfork", gFork); RegConsoleCmd("sm_fork", gFork);
+	
+	LoadTranslations("Whe.phrases");
 }
 
 // Laser
-
-Action setLaser(int client, int args) // Only for VIP
+Action setLaser(int client, int args)
 {
-		if (!IsPlayerAlive(client)) { return Plugin_Handled; }
-		if (GetClientTeam(client) != 2) { CPrintToChat(client, "%t", "OnlySurv"); return Plugin_Handled; }
-		
-		if (limits[client] > maxLimits - 1) { CPrintToChat(client, "%t", "Limits"); return Plugin_Handled; } else { limits[client]++; }
-		CPrintToChat(client, "%t", "PrintLimits", limits[client], maxLimits);
-		
-		int iWeapon = GetPlayerWeaponSlot(client, 0); // Get primary weapon
-		if (iWeapon > 0 && IsValidEdict(iWeapon) && IsValidEntity(iWeapon))
+	if (!IsPlayerAlive(client)) { return Plugin_Handled; }
+	if (GetClientTeam(client) != 2) { CPrintToChat(client, "%t", "OnlySurv"); return Plugin_Handled; }
+	
+	if (limits[client] > maxLimits - 1) { CPrintToChat(client, "%t", "Limits", limits[client], maxLimits); return Plugin_Handled; } else { limits[client]++; }
+	CPrintToChat(client, "%t", "PrintLimits", limits[client], maxLimits);
+	
+	int iWeapon = GetPlayerWeaponSlot(client, 0); // Get primary weapon
+	if (iWeapon > 0 && IsValidEdict(iWeapon) && IsValidEntity(iWeapon))
+	{
+		char netclass[128];
+		GetEntityNetClass(iWeapon, netclass, sizeof(netclass));
+		if (FindSendPropInfo(netclass, "m_upgradeBitVec") < 1)
 		{
-			char netclass[128];
-			GetEntityNetClass(iWeapon, netclass, sizeof(netclass));
-			if (FindSendPropInfo(netclass, "m_upgradeBitVec") < 1)
-			{
-				return Plugin_Handled; // This weapon does not support laser upgrade
-			}
-			int iLaser = GetEntProp(iWeapon, Prop_Send, "m_upgradeBitVec");
-			SetEntProp(iWeapon, Prop_Send, "m_upgradeBitVec", iLaser ^ (1 << 2));
-			
-			PrecacheSound("player/laser_on.wav");
-			EmitSoundToClient(client, "player/laser_on.wav");
+			return Plugin_Handled; // This weapon does not support laser upgrade
 		}
-		return Plugin_Handled;
+		int iLaser = GetEntProp(iWeapon, Prop_Send, "m_upgradeBitVec");
+		SetEntProp(iWeapon, Prop_Send, "m_upgradeBitVec", iLaser ^ (1 << 2));
+		
+		PrecacheSound("player/laser_on.wav");
+		EmitSoundToClient(client, "player/laser_on.wav");
+	}
+	return Plugin_Handled;
 }
 
 // T1
@@ -213,6 +215,52 @@ Action gPan(int client, int args)
 	giveItem(client, "frying_pan");
 	return Plugin_Handled;
 }
+Action gBat(int client, int args)
+{
+	giveItem(client, "baseball_bat");
+	return Plugin_Handled;
+}
+Action gCricket(int client, int args)
+{
+	giveItem(client, "cricket_bat");
+	return Plugin_Handled;
+}
+Action gCrowbar(int client, int args)
+{
+	giveItem(client, "crowbar");
+	return Plugin_Handled;
+}
+Action gChainsaw(int client, int args)
+{
+	giveItem(client, "chainsaw");
+	return Plugin_Handled;
+}
+Action gGolfclub(int client, int args)
+{
+	giveItem(client, "golfclub");
+	return Plugin_Handled;
+}
+Action gGuitar(int client, int args)
+{
+	giveItem(client, "electric_guitar");
+	return Plugin_Handled;
+}
+Action gTonfa(int client, int args)
+{
+	giveItem(client, "tonfa");
+	return Plugin_Handled;
+}
+Action gShovel(int client, int args)
+{
+	giveItem(client, "shovel");
+	return Plugin_Handled;
+}
+Action gFork(int client, int args)
+{
+	giveItem(client, "pitchfork");
+	return Plugin_Handled;
+}
+
 
 // Менюшки
 
@@ -228,11 +276,18 @@ Action showT1Menu(int client, int args)
 	return Plugin_Handled;
 }
 
+Action showT2Menu(int client, int args)
+{
+	t2Menu(client);
+	return Plugin_Handled;
+}
+
+
 void meleeMenu(int client)
 {
 	char buf[64];
 	Menu mel = new Menu(GunsMenu_handler);
-	mel.SetTitle("%T", "SelectMelee", client, limits[client]);
+	mel.SetTitle("%T", "SelectMelee", client, limits[client], maxLimits);
 	FormatEx(buf, sizeof(buf), "%T", "Knife", client);
 	mel.AddItem("knife", buf);
 	FormatEx(buf, sizeof(buf), "%T", "Fireaxe", client);
@@ -243,6 +298,24 @@ void meleeMenu(int client)
 	mel.AddItem("machete", buf);
 	FormatEx(buf, sizeof(buf), "%T", "Pan", client);
 	mel.AddItem("frying_pan", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Bat", client);
+	mel.AddItem("baseball_bat", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Cricket", client);
+	mel.AddItem("cricket_bat", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Crowbar", client);
+	mel.AddItem("crowbar", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Chainsaw", client);
+	mel.AddItem("chainsaw", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Golfclub", client);
+	mel.AddItem("golfclub", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Guitar", client);
+	mel.AddItem("electric_guitar", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Tonfa", client);
+	mel.AddItem("tonfa", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Shovel", client);
+	mel.AddItem("shovel", buf);
+	FormatEx(buf, sizeof(buf), "%T", "Fork", client);
+	mel.AddItem("pitchfork", buf);
 	
 	mel.Display(client, 15);
 }
@@ -251,7 +324,7 @@ void t1Menu(int client)
 {
 	char buf[64];
 	Menu gun = new Menu(GunsMenu_handler);
-	gun.SetTitle("%T", "SelectGun", client, limits[client]);
+	gun.SetTitle("%T", "SelectGun", client, limits[client], maxLimits);
 	FormatEx(buf, sizeof(buf), "%T", "Pump", client);
 	gun.AddItem("pumpshotgun", buf);
 	FormatEx(buf, sizeof(buf), "%T", "Chrome", client);
@@ -270,7 +343,7 @@ void t2Menu(int client)
 {
 	char buf[64];
 	Menu gun = new Menu(GunsMenu_handler);
-	gun.SetTitle("%T", "SelectGun", client, limits[client]);
+	gun.SetTitle("%T", "SelectGun", client, limits[client], maxLimits);
 	FormatEx(buf, sizeof(buf), "%T", "Hunter", client);
 	gun.AddItem("weapon_hunting_rifle", buf);
 	FormatEx(buf, sizeof(buf), "%T", "Military", client);
@@ -292,7 +365,7 @@ void t2Menu(int client)
 Action showMenu(int client, int args)
 {
 	Menu menu = new Menu(Menu_VotePoll); // Внутри скобок обработчик нажатий меню
-	menu.SetTitle("%T", "SelectWeapon", client, limits[client]); // Заголовок меню
+	menu.SetTitle("%T", "SelectWeapon", client, limits[client], maxLimits); // Заголовок меню
 	
 	char wName[32];
 	FormatEx(wName, sizeof(wName), "%T", "Melee", client);
@@ -301,7 +374,7 @@ Action showMenu(int client, int args)
 	menu.AddItem("gun1", wName);
 	FormatEx(wName, sizeof(wName), "%T", "Guns2", client);
 	menu.AddItem("gun2", wName);
-	FormatEx(wName, sizeof(wName), "%T", "Laser3", client);
+	FormatEx(wName, sizeof(wName), "%T", "Laser", client);
 	menu.AddItem("las", wName);
 	
 	menu.Display(client, 15);
@@ -348,7 +421,7 @@ void giveItem(int client, char[] args)
 	if (!IsPlayerAlive(client)) { return; } // Если игрок мёртв
 	if (GetClientTeam(client) != 2) { CPrintToChat(client, "%t", "OnlySurv"); return; } // Если игрок за заразу
 	
-	if (limits[client] > maxLimits - 1) { CPrintToChat(client, "%t", "Limits"); return; } else { limits[client]++; } // Проверка лимитов
+	if (limits[client] > maxLimits - 1) { CPrintToChat(client, "%t", "Limits", limits[client], maxLimits); return; } else { limits[client]++; } // Проверка лимитов
 	CPrintToChat(client, "%t", "PrintLimits", limits[client], maxLimits); // Печатаем лимиты
 	
 	int flagsgive = GetCommandFlags("give");
