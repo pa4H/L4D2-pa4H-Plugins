@@ -1,0 +1,217 @@
+"Phrases"
+{
+	"PrintLimits"
+	{
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Current {green}limit of {default}equipment requests: {olive}[{1}/{2}]"
+		"ru"		"Текущий {green}лимит {default}запросов на снаряжение: {olive}[{1}/{2}]"
+	}
+	"SelectWeapon"
+	{
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Choose weapon {1}/{2}"
+		"ru"		"Выбери оружие {1}/{2}"
+	}
+	"SelectGun"
+	{
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Choose gun {1}/{2}"
+		"ru"		"Выбери ствол {1}/{2}"
+	}
+	"SelectMelee"
+	{
+		"#format"  	"{1:i},{2:i}"
+		"en"		"Choose melee {1}/{2}"
+		"ru"		"Выбери милишку {1}/{2}"
+	}
+	"Melee"
+	{
+		"en"		"Melee (!melee)"
+		"ru"		"Милишка (!melee)"
+	}
+	"Guns"
+	{
+		"en"		"Tier 1 (!t1)"
+		"ru"		"Тэ один (!t1)"
+	}
+	"Guns2"
+	{
+		"en"		"Tier 2 (!t2)"
+		"ru"		"Тэ два (!t2)"
+	}
+	"Laser"
+	{
+		"en"		"Laser (!laser)"
+		"ru"		"Лазер (!laser)"
+	}
+	"Limits"
+	{
+		"#format"  	"{1:i},{2:i}"
+		"en"		"{olive}You have reached a limit of equipment requests: {green}{1}/{2}"
+		"ru"		"{olive}Вы достигли лимита на выбор снаряжения: {green}{1}/{2}"
+	}
+	"OnlySurv"
+	{
+		"en"		"{olive}Are you stupid?"
+		"ru"		"{olive}Ты тупой?"
+	}
+	"Knife"
+	{
+		"en"		"Knife (!knife)"
+		"ru"		"Нож (!knife)"
+	}
+	"Fireaxe"
+	{
+		"en"		"Fireaxe (!axe)"
+		"ru"		"Топор (!axe)"
+	}
+	"Katana"
+	{
+		"en"		"Katana (!katana)"
+		"ru"		"Катана (!katana)"
+	}
+	"Machete"
+	{
+		"en"		"Machete (!machete)"
+		"ru"		"Мачете (!machete)"
+	}
+	"Pan"
+	{
+		"en"		"Frying pan (!pan)"
+		"ru"		"Сковородка (!pan)"
+	}
+
+    "Bat"
+    {
+        "en"        "Baseball Bat (!bat)"
+        "ru"        "Бита (!bat)"
+    }
+    "Cricket"
+    {
+        "en"        "Cricket Bat (!cricket)"
+        "ru"        "Крикетная бита (!cricket)"
+    }
+    "Crowbar"
+    {
+        "en"        "Crowbar (!crowbar)"
+        "ru"        "Монтировка (!crowbar)"
+    }
+    "Chainsaw"
+    {
+        "en"        "Chainsaw (!chainsaw)"
+        "ru"        "Бензопила (!chainsaw)"
+    }
+    "Golfclub"
+    {
+        "en"        "Golf Club (!golf)"
+        "ru"        "Шлюшка (!golf)"
+    }
+    "Guitar"
+    {
+        "en"        "Electric Guitar (!guitar)"
+        "ru"        "Гитара (!guitar)"
+    }
+    "Tonfa"
+    {
+        "en"        "Tonfa (!tonfa)"
+        "ru"        "Тонфа (!tonfa)"
+    }
+    "Shovel"
+    {
+        "en"        "Shovel (!shovel)"
+        "ru"        "Лопата (!shovel)"
+    }
+    "Fork"
+    {
+        "en"        "Pitchfork (!fork)"
+        "ru"        "Вилы (!fork)"
+    }
+	
+	"Pump"
+	{
+		"en"		"Pump (!pump)"
+		"ru"		"Помпа (!pump)"
+	}
+	"Chrome"
+	{
+		"en"		"Chrome (!chrome)"
+		"ru"		"Хрома (!chrome)"
+	}
+	"Smg"
+	{
+		"en"		"Smg (!smg)"
+		"ru"		"Узи с глушителем (!smg)"
+	}
+	"Uzi"
+	{
+		"en"		"Uzi (!uzi)"
+		"ru"		"Узи (!uzi)"
+	}
+	"Sniper"
+	{
+		"en"		"Scout (!sniper)"
+		"ru"		"Ноускоперка (!sniper)"
+	}
+	"AWP"
+	{
+		"en"		"AWP (!awp)"
+	}
+	"Mp5"
+	{
+		"en"		"MP5 (!mp5)"
+	}
+	"Sg552"
+	{
+		"en"		"SG522 (!sg)"
+	}
+	"Magnum"
+	{
+		"en"		"Magnum (!magnum)"
+		"ru"		"Магнум (!magnum)"
+	}
+
+	// Stinky T2
+	"Hunter"
+	{
+		"en"		"Hunter sniper (!hunter)"
+		"ru"		"Охотничья снайперка (!hunter)"
+	}
+	"Military"
+	{
+		"en"		"Military sniper (!military)"
+		"ru"		"Военная снайперка (!military)"
+	}
+	"Autoshotgun"
+	{
+		"en"		"Auto shotgun (!autoshotgun)"
+		"ru"		"Авто дробовик (!autoshotgun)"
+	}
+	"Spas"
+	{
+		"en"		"SPAS-12 (!spas)"
+	}
+	"M4"
+	{
+		"en"		"M4A1 (!m4)"
+	}
+	"Scar"
+	{
+		"en"		"SCAR (!scar)"
+	}
+	"AK47"
+	{
+		"en"		"AK-47 (!ak47)"
+	}
+	
+	"GunRestrict"
+	{
+		"en"		"{olive}Only one player can take {green}this weapon"
+		"ru"		"{olive}Только один игрок может брать {green}это оружие"
+	}
+	
+	"BadGamemode"
+	{
+		"en"		"This {green}weapon {default}is blocked in this {olive}gamemode"
+		"ru"		"Это {green}оружие {default}заблокировано в данном {olive}режиме"
+	}
+}
