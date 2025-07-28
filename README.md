@@ -15,10 +15,10 @@
 * [My guide in Russian. How to make a server with 8+ slots](https://forum.myarena.ru/index.php?/topic/47821-statia-kak-sdelat-server-na-8-slotov/)
 
 # Server machine
-* Intel Core i7-3770
+* Intel® Core™ i7-3770
 * 16GB DDR3 1600 MHz
 * 2x SSD Samsung 860 EVO | 250 GB.
-* Windows 10 22H2
+* Windows 10 Pro 22H2
 
 # Server.exe
 
