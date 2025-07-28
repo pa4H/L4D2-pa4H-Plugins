@@ -25,157 +25,184 @@
 <details><summary><b>sm plugins list</b></summary>
 
 ```ruby
-[SM] Listing 109 plugins:  
-001 "[L4D2]hunter_pounce_alignment_fix" (2.0) by Lux
-002 "[L4D1 & L4D2] Ignore Physics Damage" (1.0.0) by Mart
-003 "[L4D2] Fix Jockey Hitbox" (2.1) by Forgetest
-004 "Jockey Ride Team Switch Teleport Fix" (1.0) by HarryPotter
-005 "L4D2 Pounce Protect" (1.1) by ProdigySim
-006 "[L4D & L4D2] Reload Fix - Max Clip Size" (1.5) by SilverShot
-007 "L4D(2) Tank Rock Lag Compensation" (1.14) by Luckylockm,HarryPotter,Silvers
-008 "[L4D1/2]witch_prevent_target_loss" (1.1.1) by Lux
-009 "[L4D2] Poof" (1.35) by blackalegator
-010 "[L4D2] Spitter Projectile Creator" (1.2) by SilverShot
-011 "Survivor Bot Takeover" (0.8) by Mikko Andersson (muukis)
-012 "KickMenu" (1.0) by pa4H
-013 "Whe" (1.0) by pa4H
-014 "FunCmds" (1.0) by pa4H
-015 "[pa4H]Help" (1.0) by pa4H
-016 "!kill & !afk & !jointeam" (2.0) by pa4H
-017 "MajorMenu" (1.0) by pa4H
-018 "OverrideChat" (1.0) by pa4H
-019 "Server cmds" (1.0) by pa4H
-020 "TeamSwitcher" (3.0) by pa4H
-021 "[L4D & L4D2] Tank Pass" (2.5) by Scratchy [Laika] & raziEiL [disawar1]
-022 "Round Start Bot Stop" (1.8) by EHG
-023 "Melee In The Saferoom" (3.1.0) by $atanic $pirit, N3wton
-024 "Tank Damage Announce" (2.0) by Griffin, Blade, pa4H
-025 "[L4D1 & L4D2] Tank Rock Ignition" (1.1.0) by Mart
-026 "[L4D2] Unlock Finales" (1.0.3) by Mart
-027 "Tank Attack Control" (1.0) by vintik, CanadaRox, Jacob, Visor, pa4H
-028 "AntiMapFixes" (1.0) by pa4H
-029 "BonusSystem" (2.5) by pa4H, vintik
-030 "MapVoter" (2.1) by pa4H
-031 "SetItemsCount" (3.0) by pa4H
-032 "Tank&Witch on every map and !boss" (030824) by pa4H
-033 "TankHP" (2.0) by pa4H
-034 "VoteBoss" (1.0) by pa4H
-035 "WhoBecomeTank" (1.0) by pa4H
-036 "WitchDamageAnnounce" (2.0) by pa4H
-037 "WitchSit" (1.0) by pa4H
-038 "Connection Time Player" (1.0.0) by AlmazON
-039 "AdminSeeAllChat" (1.0) by pa4H
-040 "AntiBunny" (1.0) by pa4H
-041 "ChatProcessor" (1.0) by pa4H
-042 "MVP" (2.0) by pa4H
-043 "SimpleAdv" (2.0) by pa4H, Tsunami
-044 "Welcome Message" (2.0) by pa4H
-045 "ABX" (1.2) by PCI Gaming Team
-046 "[L4D2] Boomer Horde Control" (2.0) by Spoon, pa4H
-047 "[L4D & L4D2] Common Limiter" (1.2) by SilverShot
-048 "L4D2 weapon csgo reload" (2.3) by Harry Potter
-049 "Dynamic Ghost Respawn Time" (1.0) by Xx_Faxe_xX
-050 "[L4D & 2] Freely Round End" (1.0) by Forgetest
-051 "[L4D & L4D2] Gear Transfer" (2.21) by SilverShot
-052 "L4D Ghost Fly" (1.1.1) by Madcap
-053 "[L4D2] Gift Rewards" (1.7) by SilverShot
-054 "[L4D & L4D2] God Frames Patch" (1.7) by SilverShot
-055 "L4D2 Hittable Control" (0.7) by Stabby, Visor, Sir, Derpduck, Forgetest
-056 "Incap Punch Fix" (1) by CanadaRox
-057 "L4D2 Melee Damage Fix&Control" (2.1) by Visor, Sir, A1m`
-058 "L4D2 Bash Kills" (1.0) by Jahze
-059 "No Spitter During Tank" (2.0) by Don, epilimic, Griffin
-060 "[L4D & L4D2] Reverse Friendly-Fire" (2.8.2) by Mystic Spiral, pa4H
-061 "[L4D2] Shove Direction Fix" by BHaType
-062 "BiledTankDamage" (1.0) by pa4H
-063 "Round All Talk" (1.1) by Mr. Zero
-064 "[L4D & L4D2] First Map - Skip Intro Cutscenes" (1.11) by SilverShot
-065 "DBLogger" (2.0) by pa4H
-066 "FakeAdminPing" (1.0) by pa4H
-067 "HighPingKicker" (1.0) by pa4H
-068 "New Vote System" (170125) by pa4H
-069 "PointInNick" (1.0) by pa4H
-070 "ProStats" (4.0) by pa4H
-071 "[L4D & L4D2] Dissolve Infected" (1.15) by SilverShot
-072 "L4D2 Godframes Color (Default timings)" (0.1.2) by Tabun
-073 "[L4D2]Survivor_Legs_Restore" (1.6.0) by Lux
-074 "L4D2 Tank Hittable Glow" (2.5) by Harry Potter, Sir, A1m`, Derpduck
-075 "Chotko_V_Jban" (2.0) by pa4H
-076 "Kegly" (1.0) by pa4H
-077 "ListSpeakers" (5.0) by pa4H, Aceleracion, Emilio3
-078 "PissOnFace" (1.0) by pa4H
-079 "UltraSound" (1.1) by pa4H
-080 "l4d2_changelevel" (1.2.1) by Lux
-081 "Skill Detection (skeets, crowns, levels)" (1.1.1) by Tabun
-082 "[L4D & L4D2] Mission and Weapons - Info Editor" (1.25) by SilverShot
-083 "[L4D & L4D2] Left 4 DHooks Direct" (1.155) by SilverShot
-084 "[ANY] Restart Empty Server (or Map)" (2.6) by Alex Dragokas
-085 "L4D 1/2 Remove Lobby Reservation" (2.0.8) by Downtown1, Anime4000, sorallll, HatsuneImagine
-086 "[L4D2 & CS:GO & NMRiH] VScript File Replacer" (1.17) by SilverShot
-087 "Server status" (1.0) by pa4H
-088 "[L4D/2] Automated Demo Recording" (1.2) by shqke
-089 "[L4D/2] Hide SourceTV Bot" (1.2) by shqke
-090 "Manage HLTV Cameras" (1.6) by shqke
-091 "[L4D/2] Unlink Camera Entities" (1.1) by shqke
-092 "[Lilac] Little Anti-Cheat" (1.7.4) by J_Tanzanite
-093 "Anti BunnyHop" (2.0) by CanadaRox, pa4H
-094 "AntiPetuch" (1.0) by pa4H
-095 "AFK Manager" (4.3.0) by Rothgar
-096 "Spectator stays spectator" (1.0h-2024/2/19) by Die Teetasse, Harry
-097 "l4d2 specating cheat" (2.8-2023/6/19) by Harry Potter
-098 "SpecLister" (6.0) by pa4H
-099 "SimpleInfectedSelect" (2.1) by pa4H, XBetaAlpha
-100 "VIP-System" (1.0) by pa4H
-101 "[L4D & L4D2] Flashlight Package" (2.34) by SilverShot
-102 "[L4D & L4D2] Hats" (1.49) by SilverShot
-103 "Survivor Bot Select" (1.0) by Merudo
-104 "Admin File Reader" (1.12.0.7165) by AlliedModders LLC
-105 "Admin Menu" (1.12.0.7165) by AlliedModders LLC
-106 "Basic Comm Control" (1.12.0.7165) by AlliedModders LLC
-107 "Basic Commands" (1.12.0.7176) by AlliedModders LLC
-108 "Fun Commands" (1.12.0.7165) by AlliedModders LLC
-109 "Player Commands" (1.12.0.7165) by AlliedModders LLC
+[SM] Listing 134 plugins:
+  001 "[L4D2]Charger_Collision_Patch" (2.0.1) by Lux
+  002 "[ANY] Command and ConVar - Buffer Overflow Fixer" (2.9) by SilverShot and Peace-Maker
+  003 "[ANY] Fix Null Activator" (1.3) by GoD-Tony, blueblur
+  004 "[L4D2]hunter_pounce_alignment_fix" (2.0) by Lux
+  005 "[L4D1 & L4D2] Ignore Physics Damage" (1.0.0) by Mart
+  006 "[L4D2] Fix Jockey Hitbox" (2.1) by Forgetest
+  007 "Jockey Ride Team Switch Teleport Fix" (1.0) by HarryPotter
+  008 "[L4D2] Block No Steam Logon" (1.2.3) by blueblur
+  009 "L4D2 HLTV Crash Exploit Fix" (2.2) by backwards, ProdigySim, A1m`
+  010 "Tank Punch Ceiling Stuck Fix" (2.0) by Tabun, Visor, A1m`, Forgetest
+  011 "[L4D2] Ladder Server Crash - Patch Fix" (1.1) by SilverShot and Peace-Maker
+  012 "L4D2 Pounce Protect" (1.1) by ProdigySim
+  013 "[L4D & L4D2] Reload Fix - Max Clip Size" (1.5) by SilverShot
+  014 "L4D(2) Tank Rock Lag Compensation" (1.14) by Luckylockm,HarryPotter,Silvers
+  015 "[L4D & L4D2] Use Priority Patch" (2.6) by SilverShot
+  016 "[L4D1/2]Witch_Target_Patch" (1.4) by Lux
+  017 "[L4D1/2]witch_prevent_target_loss" (1.1.1) by Lux
+  018 "[L4D/2] Automated Demo Recording" (1.2) by shqke
+  019 "[L4D/2] Hide SourceTV Bot" (1.2) by shqke
+  020 "Manage HLTV Cameras" (1.6) by shqke
+  021 "[L4D/2] Unlink Camera Entities" (1.1) by shqke
+  022 "[L4D2] Poof" (1.35) by blackalegator
+  023 "[L4D2] Spitter Projectile Creator" (1.2) by SilverShot
+  024 "Survivor Bot Takeover" (0.8) by Mikko Andersson (muukis)
+  025 "KickMenu" (1.0) by pa4H
+  026 "Whe" (2.0) by pa4H
+  027 "FunCmds" (1.0) by pa4H
+  028 "[pa4H]Help" (1.0) by pa4H
+  029 "!kill & !afk & !jointeam" (2.0) by pa4H
+  030 "OverrideChat" (1.0) by pa4H
+  031 "Server cmds" (1.0) by pa4H
+  032 "TeamSwitcher" (3.0) by pa4H
+  033 "[L4D & L4D2] Tank Pass" (2.5) by Scratchy [Laika] & raziEiL [disawar1]
+  034 "Round Start Bot Stop" (1.8) by EHG
+  035 "Melee In The Saferoom" (3.1.0) by $atanic $pirit, N3wton
+  036 "Tank Damage Announce" (2.0) by Griffin, Blade, pa4H
+  037 "[L4D1 & L4D2] Tank Rock Ignition" (1.1.0) by Mart
+  038 "[L4D2] Unlock Finales" (1.0.3) by Mart
+  039 "Tank Attack Control" (1.0) by vintik, CanadaRox, Jacob, Visor, pa4H
+  040 "AntiMapFixes" (1.0) by pa4H
+  041 "BonusSystem" (2.5) by pa4H, vintik
+  042 "MapVoter" (2.2) by pa4H
+  043 "SetItemsCount" (3.0) by pa4H
+  044 "Tank&Witch on every map and !boss" (030824) by pa4H
+  045 "TankHP" (2.0) by pa4H
+  046 "VoteBoss" (1.0) by pa4H
+  047 "WhoBecomeTank" (1.0) by pa4H
+  048 "WitchDamageAnnounce" (2.0) by pa4H
+  049 "WitchSit" (1.0) by pa4H
+  050 "Scavenge Helper" (2.0) by pa4H
+  051 "Connection Time Player" (1.0.0) by AlmazON
+  052 "AdminSeeAllChat" (1.0) by pa4H
+  053 "AntiBunny" (1.0) by pa4H
+  054 "ChatProcessor" (1.0) by pa4H
+  055 "MVP" (2.0) by pa4H
+  056 "SimpleAdv" (2.0) by pa4H, Tsunami
+  057 "Best Welcome Message" (3.0) by pa4H
+  058 "3Gameplay\AirAbilitiesPatch.smx"
+  059 "ABX" (1.2) by PCI Gaming Team
+  060 "[L4D2] Boomer Horde Control" (2.0) by Spoon, pa4H
+  061 "Boomer Horde Equalizer (Refactored)" (1.6) by Visor, Jacob, A1m`, Sir
+  062 "[L4D & L4D2] Common Limiter" (1.2) by SilverShot
+  063 "L4D2 weapon csgo reload" (2.3) by Harry Potter
+  064 "Dynamic Ghost Respawn Time" (1.0) by Xx_Faxe_xX
+  065 "[L4D & 2] Freely Round End" (1.0) by Forgetest
+  066 "[L4D & L4D2] Gear Transfer" (2.21) by SilverShot
+  067 "L4D Ghost Fly" (1.1.1a) by Madcap (modified by dcx2)
+  068 "[L4D2] Gift Rewards" (1.7) by SilverShot
+  069 "[L4D & L4D2] God Frames Patch" (1.7) by SilverShot
+  070 "L4D2 Hittable Control" (0.7) by Stabby, Visor, Sir, Derpduck, Forgetest
+  071 "Incap Punch Fix" (1) by CanadaRox
+  072 "L4D2 Melee Damage Fix&Control" (2.1) by Visor, Sir, A1m`
+  073 "L4D2 Bash Kills" (1.0) by Jahze
+  074 "No Spitter During Tank" (2.0) by Don, epilimic, Griffin
+  075 "Despawn Health" (1.3.2) by Jacob
+  076 "[L4D & L4D2] Reverse Friendly-Fire" (2.8.2) by Mystic Spiral, pa4H
+  077 "[L4D2] Shove Direction Fix" by BHaType
+  078 "BiledTankDamage" (1.0) by pa4H
+  079 "Round All Talk" (1.1) by Mr. Zero
+  080 "[L4D & L4D2] First Map - Skip Intro Cutscenes" (1.11) by SilverShot
+  081 "DBLogger" (3.0) by pa4H
+  082 "FakeAdminPing" (1.0) by pa4H
+  083 "HighPingKicker" (1.0) by pa4H
+  084 "NewVoteSystem" (100625) by pa4H
+  085 "PezdoxStats" (1.0) by pa4H
+  086 "PointInNick" (1.0) by pa4H
+  087 "[L4D & L4D2] Dissolve Infected" (1.15) by SilverShot
+  088 "[L4D2]Survivor_Legs_Restore" (1.6.0) by Lux
+  089 "L4D2 Tank Hittable Glow" (2.5) by Harry Potter, Sir, A1m`, Derpduck
+  090 "Chotko_V_Jban" (2.0) by pa4H
+  091 "Kegly" (1.1) by pa4H
+  092 "ListSpeakers" (7.0) by pa4H, Aceleracion, Emilio3
+  093 "UltraSound" (1.1) by pa4H
+  094 "l4d2_changelevel" (1.2.1) by Lux
+  095 "[L4D & L4D2] Mission and Weapons - Info Editor" (1.25) by SilverShot
+  096 "[L4D & L4D2] Left 4 DHooks Direct" (1.159) by SilverShot
+  097 "[ANY] Restart Empty Server (or Map)" (2.6) by Alex Dragokas
+  098 "Skill Detection (skeets, crowns, levels)" (1.1.1) by Tabun
+  099 "Source Scramble Manager" (1.2.0) by nosoop
+  100 "[L4D2 & CS:GO & NMRiH] VScript File Replacer" (1.17) by SilverShot
+  101 "Server status" (1.0) by pa4H
+  102 "Ultra Hunter" (1.0) by pa4H
+  103 "[Lilac] Little Anti-Cheat" (1.7.4) by J_Tanzanite
+  104 "LimitBhopSpeed" (2.0) by CanadaRox, pa4H
+  105 "SourceMod Anti-Cheat" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  106 "SMAC Aimbot Detector" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  107 "SMAC AutoTrigger Detector" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  108 "SMAC Client Protection" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  109 "SMAC Command Monitor" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  110 "SMAC ConVar Checker" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  111 "SMAC Rcon Locker" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  112 "SMAC Anti-Speedhack" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  113 "SMAC Spinhack Detector" (0.8.7.3h-2024/10/2) by SMAC Development Team
+  114 "AntiMacrosCeiling" (1.0) by pa4H
+  115 "AFK Manager" (4.3.1) by Rothgar, pa4H
+  116 "Spectator stays spectator" (1.0h-2024/2/19) by Die Teetasse, Harry
+  117 "l4d2 specating cheat" (2.8-2023/6/19) by Harry Potter
+  118 "SourceTV HUD" (1.0) by pa4H
+  119 "SpecLister" (6.0) by pa4H
+  120 "PissOnFace" (1.0) by pa4H
+  121 "SimpleInfectedSelect" (2.1) by pa4H, XBetaAlpha
+  122 "VIP-System" (1.0) by pa4H
+  123 "[L4D & L4D2] Flashlight Package" (2.34) by SilverShot
+  124 "[L4D & L4D2] Hats" (1.49) by SilverShot
+  125 "Survivor Bot Select" (1.0) by Merudo
+  126 "[L4D2] a2s fix" (1.0.2) by lakwsh
+  127 "[L4D2] vomit fix" (1.1.0) by lakwsh
+  128 "L4D1/2 Remove Lobby Reservation" (1.7h-2025/5/12) by Downtown1, Harry
+  129 "Admin File Reader" (1.12.0.7165) by AlliedModders LLC
+  130 "Admin Menu" (1.12.0.7165) by AlliedModders LLC
+  131 "Basic Comm Control" (1.12.0.7165) by AlliedModders LLC
+  132 "Basic Commands" (1.12.0.7176) by AlliedModders LLC
+  133 "Fun Commands" (1.12.0.7165) by AlliedModders LLC
+  134 "Player Commands" (1.12.0.7165) by AlliedModders LLC
 ```
 </details>
 
 <details><summary><b>meta list</b></summary>
 
 ```ruby
-Listing 10 plugins:
-  [01] L4DToolZ (2.0.1) by Accelerator, Ivailosp
-  [02] Pounce Damage Uncap (1.1.0.0-1) by Michael "ProdigySim" Busby, $atanic $pirit
-  [03] SourceMod (1.12.0.7176) by AlliedModders LLC
-  [04] Stripper (1.2.2) by BAILOPAN
-  [05] Actions (3.8.8) by BHaType
-  [06] SourceTV Manager (1.2) by Peace-Maker
-  [07] SDK Tools (1.12.0.7176) by AlliedModders LLC
-  [08] SourceTV Support (0.10.1) by Evgeniy "shqke" Kazakov
-  [09] SDK Hooks (1.12.0.7176) by AlliedModders LLC
-  [10] DHooks (1.12.0.7176) by AlliedModders LLC
+Listing 9 plugins:
+[01] Pounce Damage Uncap (1.1.0.0-1) by Michael "ProdigySim" Busby, $atanic $pirit
+[02] SourceMod (1.12.0.7207) by AlliedModders LLC
+[03] Stripper (1.2.2) by BAILOPAN
+[04] Actions (3.8.8) by BHaType
+[05] SourceTV Manager (1.2) by Peace-Maker
+[06] SDK Tools (1.12.0.7207) by AlliedModders LLC
+[07] SourceTV Support (0.10.1) by Evgeniy "shqke" Kazakov
+[08] DHooks (1.12.0.7207) by AlliedModders LLC
+[09] SDK Hooks (1.12.0.7207) by AlliedModders LLC
 ```	
 </details>
 
 <details><summary><b>sm exts list</b></summary>
 
 ```ruby
-[SM] Displaying 17 extensions:
+[SM] Displaying 20 extensions:
 [01] Accelerator (2.5.0): SRCDS Crash Handler
-[02] Webternet (1.12.0.7176): Extension for interacting with URLs
+[02] Webternet (1.12.0.7207): Extension for interacting with URLs
 [03] Actions (3.8.8): Nextbot action tree manager
 [04] Console Cleaner (1.4.0): Console warning suppressor
 [05] SourceTV Manager (1.2): Interface to interact with the SourceTV server.
-[06] BinTools (1.12.0.7176): Low-level C/C++ Calling API
-[07] SDK Tools (1.12.0.7176): Source SDK Tools
+[06] BinTools (1.12.0.7207): Low-level C/C++ Calling API
+[07] SDK Tools (1.12.0.7207): Source SDK Tools
 [08] SourceTV Support (0.10.1): Restores broadcasting/recording SourceTV features in Left 4 Dead engine
-[09] SDK Hooks (1.12.0.7176): Source SDK Hooks
-[10] DHooks (1.12.0.7176): Dynamic Hooks
-[11] Client Preferences (1.12.0.7176): Saves client preference settings
-[12] SQLite (1.12.0.7176): SQLite Driver
-[13] Top Menus (1.12.0.7176): Creates sorted nested menus
-[14] GeoIP (1.12.0.7176): Geographical IP information
-[15] REST in Pawn (1.3.1): Provides HTTP and JSON natives for plugins
-[16] Regex (1.12.0.7176): Provides regex natives for plugins
-[17] MySQL-DBI (1.12.0.7176): MySQL driver implementation for DBI
+[09] DHooks (1.12.0.7207): Dynamic Hooks
+[10] SDK Hooks (1.12.0.7207): Source SDK Hooks
+[11] Source Scramble (0.8.1): Tools for working with memory.
+[12] Client Preferences (1.12.0.7207): Saves client preference settings
+[13] SQLite (1.12.0.7207): SQLite Driver
+[14] Top Menus (1.12.0.7207): Creates sorted nested menus
+[15] GeoIP (1.12.0.7207): Geographical IP information
+[16] REST in Pawn (1.3.1): Provides HTTP and JSON natives for plugins
+[17] Regex (1.12.0.7207): Provides regex natives for plugins
+[18] <OPTIONAL> file "connect.ext.dll": ═х эрщфхэ єърчрээ√щ ьюфєы№.
+[19] <OPTIONAL> file "smrcon.ext.dll": ═х эрщфхэ єърчрээ√щ ьюфєы№.
+[20] MySQL-DBI (1.12.0.7207): MySQL driver implementation for DBI
 ```
 
 </details>
@@ -184,13 +211,13 @@ Listing 10 plugins:
 
 ```ruby
 Loaded plugins:  
-0:      "Metamod:Source 1.12.0-dev+1211"
-1:      "Tickrate_Enabler 1.5, ProdigySim"
+0:      "L4DToolZ v2.4.1, https://github.com/lakwsh/l4dtoolz"
+1:      "Metamod:Source 1.12.0-dev+1217"
 ```
 
 </details>
 
-<details><summary><b>My Server.cfg</b></summary>
+<details><summary><b>server.cfg</b></summary>
 
 ```ruby
 hostname "PEZDOX | Versus #1" 
@@ -206,6 +233,18 @@ sm_cvar lock_gamemode "versus"
 sm_cvar sv_tags "versus, pezdox"
 sm_cvar sv_search_key "versus, pezdox"
 
+exec bots.cfg
+exec secure.cfg
+exec conf.cfg // Дефолтные настройки сервера тут
+
+// Сода можно добавить индивидуальные настройки
+
+```
+</details>
+
+<details><summary><b>conf.cfg</b></summary>
+
+```ruby
 // Server //
 sv_lan 0
 motd_enabled 0 
@@ -241,21 +280,29 @@ mat_queue_mode 2
 z_resolve_zombie_collision_multiplier "0.05"
 
 // SourceTV
-sm_cvar sm_autorecord_minplayers 4
-sm_cvar sm_autorecord_roundsplit 0
+sm_cvar sm_autorecord_minplayers "1"
+sm_cvar sm_autorecord_minplayersdelay "0"
+sm_cvar sm_autorecord_roundsplit "0"
 sm_cvar sm_autorecord_pathfmt "!Demos\%d.%m.%Y\%l-%d.%m.%Y-%H.%M"
+sm_cvar tv_allow_camera_man "0"
+
+// Other
+sm_cvar vs_defib_penalty "100"
 
 // DAMAGE //
 sm_cvar l4d2_melee_damage_tank_nerf "27.0" // 300 = 27 | 200 = 51 | 250 = 39
-sm_cvar biledTankDamage "100"
-sm_cvar z_witch_damage_per_kill_hit 60
-sm_cvar z_door_pound_damage 160
+sm_cvar biledTankDamage "100" // Урон по заблеванному Танку
+sm_cvar z_witch_damage_per_kill_hit 60 // Урон от Ведьмы по лежачему
+sm_cvar z_door_pound_damage 160 // Здоровье дверей
 sm_cvar survivor_burn_factor_normal "0.35" // 0.2 stock
 sm_cvar z_hunter_max_pounce_bonus_damage "100"
 sm_cvar z_pounce_damage_range_min "300"
 sm_cvar z_pounce_damage_range_max "2200"
 sm_cvar hunter_killHeight "1200"
 sm_cvar hunter_killMinHP "30"
+// Урон от зараженных //
+sm_cvar tongue_choke_damage_amount "10"
+// Урон от когтей //
 //sm_cvar boomer_pz_claw_dmg 10
 //sm_cvar hunter_pz_claw_dmg 10
 //sm_cvar jockey_pz_claw_dmg  10
@@ -327,11 +374,11 @@ sm_cvar z_tank_health 5500 // 8250 ХП
 sm_cvar sv_force_time_of_day 0 // Сидячая Вича на всех картах
 sm_cvar z_frustration_lifetime 50 // Контроль Танка
 sm_cvar l4d_tank_pass_count 100
-sm_cvar z_tank_damage_slow_min_range 0
-sm_cvar z_tank_damage_slow_max_range 100
-sm_cvar tank_stuck_time_suicide "999"
-sm_cvar z_witch_burn_time "25"
-sm_cvar tank_burn_duration "100"
+sm_cvar z_tank_damage_slow_min_range 0   // Отключение замедления Танка когда по нему стреляешь
+sm_cvar z_tank_damage_slow_max_range 100 //
+sm_cvar tank_stuck_time_suicide "999" // Танк не умирает если застрял
+sm_cvar z_witch_burn_time "25" // За сколько сгорит Ведьма
+sm_cvar tank_burn_duration "100" // За сколько сгорит Танк
 
 // Delays //
 sm_cvar decalfrequency 1.0 // Задержка спрея
@@ -341,9 +388,6 @@ sm_cvar scavenge_round_setup_time 15
 sm_cvar scavenge_round_restart_delay 1
 sm_cvar scavenge_round_restart_delay_tied 1
 sm_cvar versus_round_restarttimer 5 // Время подсчета очков versus
-
-exec bots.cfg
-exec secure.cfg
 ```
 </details>
 
@@ -352,72 +396,9 @@ exec secure.cfg
 ```ruby
 // Survivors
 sm_cvar sb_allow_shoot_through_survivors "0"
-sm_cvar sb_battlestation_give_up_range_from_human "100"
-sm_cvar sb_battlestation_human_hold_time "0.25"
-sm_cvar sb_close_checkpoint_door_interval "0.18"
-sm_cvar sb_close_threat_range "75"
-sm_cvar sb_combat_saccade_speed "2250"
-sm_cvar sb_debug_apoproach_wait_time "0"
-sm_cvar sb_enforce_proximity_lookat_timeout "0.0"
-sm_cvar sb_enforce_proximity_range "10000"
-sm_cvar sb_escort "0"
-sm_cvar sb_far_hearing_range "0xffffff"
-sm_cvar sb_follow_stress_factor "0.0"
-sm_cvar sb_friend_immobilized_reaction_time_expert "0"
-sm_cvar sb_friend_immobilized_reaction_time_hard "0"
-sm_cvar sb_friend_immobilized_reaction_time_normal "0"
-sm_cvar sb_friend_immobilized_reaction_time_vs "0"
-sm_cvar sb_locomotion_wait_threshold "0"
-sm_cvar sb_max_battlestation_range_from_human "290"
-sm_cvar sb_max_scavenge_separation "2000"
 sm_cvar sb_max_team_melee_weapons "8"
 sm_cvar sb_melee_approach_victim "0"
-sm_cvar sb_min_attention_notice_time "0"
-sm_cvar sb_min_orphan_time_to_cover "0"
-sm_cvar sb_near_hearing_range "10000"
-sm_cvar sb_neighbor_range "100"
-sm_cvar sb_normal_saccade_speed "1500"
-sm_cvar sb_path_lookahead_range "975"
-sm_cvar sb_pushscale "4"
-sm_cvar sb_reachability_cache_lifetime "0"
-sm_cvar sb_reachable_cache_paranoia "0"
-sm_cvar sb_rescue_vehicle_loading_range "50"
-sm_cvar sb_separation_danger_max_range "300"
-sm_cvar sb_separation_danger_min_range "84"
-sm_cvar sb_separation_range "300"
-sm_cvar sb_sidestep_for_horde "1"
-sm_cvar sb_threat_close_range "50"
-sm_cvar sb_threat_exposure_stop "0xffffff"
-sm_cvar sb_threat_exposure_walk "0xffffff"
-sm_cvar sb_threat_far_range "8000"
-sm_cvar sb_threat_medium_range "3000"
-sm_cvar sb_threat_very_close_range "50"
-sm_cvar sb_threat_very_far_range "0xffffff"
-sm_cvar sb_use_button_range "1000"
 sm_cvar sb_vomit_blind_time "0.0"
-sb_force_max_intensity Bill
-sb_force_max_intensity Coach
-sb_force_max_intensity Ellis
-sb_force_max_intensity Francis
-sb_force_max_intensity Louis
-sb_force_max_intensity Nick
-sb_force_max_intensity Rochelle
-sb_force_max_intensity Zoey
-
-// Survivors for versus
-sm_cvar sb_combat_saccade_speed "6750"
-sm_cvar sb_locomotion_wait_threshold "0.1"
-sm_cvar sb_max_battlestation_range_from_human "100"
-sm_cvar sb_normal_saccade_speed "5250"
-sm_cvar sb_path_lookahead_range "1350"
-sm_cvar sb_pushscale "6.5"
-sm_cvar sb_separation_danger_max_range "150"
-sm_cvar sb_separation_danger_min_range "75"
-sm_cvar sb_separation_range "150"
-sm_cvar sb_threat_close_range "5000"
-sm_cvar sb_threat_far_range "0xffffff"
-sm_cvar sb_threat_medium_range "6000"
-sm_cvar sb_threat_very_close_range "2000"
 
 // Infected
 sm_cvar boomer_exposed_time_tolerance "0"
@@ -478,6 +459,7 @@ sm_cvar SteamAPI_Key "Hui tebe"
 sv_steamgroup "Hui tebe"
 ```
 </details>
+
 
 # Stripper:Source
 * [Original](https://github.com/Derpduck/L4D2-Comp-Stripper-Rework): The original map configs are taken from here: L4D2 Competitive Stripper Rework
