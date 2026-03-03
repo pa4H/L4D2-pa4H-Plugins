@@ -1,7 +1,7 @@
 # Various things from my PEZDOX™ Left4Dead2 server
 
-> This collection consists of various things that are on my server.  
-> It includes plugins, Stripper:Source configs, server.cfg and much, much more.  
+> The plugins are provided for INTRODUCTION purposes only.
+If you need help installing or modifying them, please contact me. Contact information is below.  
 
 > Some parts of my plugins' code might seem imperfect. Some of them may include snippets borrowed from other authors. 
 > However, most of the plugins are entirely my original work. You are free to modify and distribute them, provided that I am credited as the author. Thank you!
