@@ -844,6 +844,5 @@ Fixed game bug "Voting is already started".
 # Contact with me
 * [Telegram](https://t.me/pa4H232)  
 * [Steam](https://https://steamcommunity.com/id/pa4h1337/)  
-* [VK.com](https://vk.com/pa4h1337)  
 * [Discord](https://discord.gg/3zzud2jbRC)  
-* [My website](https://pa4h.ru)  
+* [My website](https://pzdx.ru)  
